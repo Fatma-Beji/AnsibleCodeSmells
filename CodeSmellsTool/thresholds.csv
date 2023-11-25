@@ -1,0 +1,15 @@
+key,value
+LOC_playbook,110
+num_plays,4
+avg_play_size,50
+num_tasks_playbook,15
+avg_task_playbook,15
+Num_Imports,4
+Num_Roles,5
+similarity,0.4
+LOC_play,50
+num_tasks_play,7
+avg_task_play,15
+special_chars,3
+LOC_task,15
+task_name_len,75

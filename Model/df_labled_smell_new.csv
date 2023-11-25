@@ -1,0 +1,244 @@
+item,type,LOC_playbook,num_plays,num_tasks_playbook,avg_task_playbook,Num_Imports,Num_Roles,similarity,LOC_play,num_tasks_play,avg_task_play,special_chars_play,LOC_task,task_name_len,special_chars_task,class,smell_label,smell_labels
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ReinerNippes\nextcloud\roles\prep_letsencrypt\tasks\Amazon.yml,playbook,0,0,0,0,0,0,0.445803134,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\fgci-org\fgci-ansible\admin_ohpc.yml,playbook,43,1,0,0,0,24,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\fgci-org\fgci-ansible\admin_ohpc.yml,playbook,0,0,0,0,0,24,0.0,0,0,0.0,0,0,0,0,high playbook coupling,cs3,cs3
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\fgci-org\fgci-ansible\admin_ohpc.yml,playbook,43,1,0,0,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Run docker osf adminserver container,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\dresden-weekly\ansible-network-interfaces\tasks\all_interfaces.yml,playbook,0,0,0,0,0,0,0.553229854,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+Running Searchlight bootstrap container,task,0,0,0,0,0,0,0.0,0,0,0.0,0,18,0,0,Large Task,cs5,cs5
+Running Designate bootstrap container,task,0,0,0,0,0,0,0.0,0,0,0.0,0,19,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\sky-uk\clusterverse\redeploy\_scheme_rmvm_keepdisk_rollback\tasks\by_hosttype_by_host.yml,playbook,46,0,8,7,0,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+stop/ remove previous instance,task,0,0,0,0,0,0,0.0,0,0,0.0,0,19,0,0,Large Task,cs5,cs5
+by_hosttype_by_host | Run {{mainclusteryml}} to add {{host_to_redeploy.hostname}} to cluster,task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,92,0,Long Task Name,cs6,cs6
+"by_hosttype_by_host | re-acquire cluster_hosts_state (NOT cluster_hosts_target, as we are augmenting this in _add_src_diskinfo_to_cluster_hosts_target__ (also, it is not affected by change of state))",task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,199,0,Long Task Name,cs6,cs6
+"by_hosttype_by_host | Power on new VM (not needed for normal redeploy, but for rescue case)",task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,91,0,Long Task Name,cs6,cs6
+"by_hosttype_by_host | re-acquire cluster_hosts_state (NOT cluster_hosts_target, as we are augmenting this in _add_src_diskinfo_to_cluster_hosts_target__ (also, it is not affected by change of state))",task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,199,0,Long Task Name,cs6,cs6
+Install trusted CA Certificates,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+Install the python venv,task,0,0,0,0,0,0,0.0,0,0,0.0,0,22,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\sodafoundation\installer\ansible\roles\osdsdock\scenarios\ceph.yml,playbook,214,0,23,6,5,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\sodafoundation\installer\ansible\roles\osdsdock\scenarios\ceph.yml,playbook,214,0,23,6,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\sodafoundation\installer\ansible\roles\osdsdock\scenarios\ceph.yml,playbook,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,6,Inconsistent Naming Convention ,cs7,cs7
+check ceph cluster member status,task,0,0,0,0,0,0,0.0,0,0,0.0,0,14,0,0,Large Task,cs5,cs5
+check if the existing ceph is the required version or not,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+configure opensds global info osdsdock ceph,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+copy opensds ceph backend file to ceph config file if specify ceph backend,task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,74,0,Long Task Name,cs6,cs6
+Check memcached container,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+{{ container_config_name }} :: Wait for {{ container_config_name }} to be built and marked with latest tag,task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,106,0,Long Task Name,cs6,cs6
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\hortonworks\ansible-hortonworks\playbooks\check_dynamic_blueprint.yml,playbook,98,1,19,6,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Check if the dynamic blueprint requested configuration is correct,play,0,0,0,0,0,0,0.0,131,19,6.894736842,0,0,0,0,Large Play,cs8,cs8
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\kolla-ansible\ansible\roles\manila\tasks\config.yml,playbook,103,0,9,12,2,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Copying over manila.conf,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+Copying over manila-share.conf,task,0,0,0,0,0,0,0.0,0,0,0.0,0,23,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\PowerDNS\pdns_recursor-ansible\tasks\configure.yml,playbook,95,0,8,11,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,19,0,0,Large Task,cs5,cs5
+Ensure the PowerDNS Recursor drop-in unit overrides directory exists (systemd),task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,78,0,Long Task Name,cs6,cs6
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+Wait for ManageWorkspace to be ready (60s delay),task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\sensu\sensu-go-ansible\tests\integration\molecule\module_silence\converge.yml,playbook,154,1,26,6,0,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\sensu\sensu-go-ansible\tests\integration\molecule\module_silence\converge.yml,playbook,154,1,26,6,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\sensu\sensu-go-ansible\tests\integration\molecule\module_silence\converge.yml,playbook,154,1,26,6,0,0,0.0,0,0,0.0,0,0,0,0,Insufficient Modularization,cs9,cs9
+Converge,play,0,0,0,0,0,0,0.0,152,26,5.846153846,0,0,0,0,Large Play,cs8,cs8
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-ansible\tripleo_ansible\roles\tripleo_container_manage\tasks\create.yml,playbook,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,4,Inconsistent Naming Convention ,cs7,cs7
+Create containers managed by Podman for {{ tripleo_container_manage_config }},task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,77,0,Long Task Name,cs6,cs6
+Manage container systemd services and cleanup old systemd healthchecks for {{ tripleo_container_manage_config }},task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,112,0,Long Task Name,cs6,cs6
+Configure Reverse Proxy,task,0,0,0,0,0,0,0.0,0,0,0.0,0,27,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-quickstart\roles\libvirt\setup\undercloud\tasks\customize_overcloud.yml,playbook,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,3,Inconsistent Naming Convention ,cs7,cs7
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,24,0,0,Large Task,cs5,cs5
+Install required dependencies of EasyBuild (RHEL-compatible),task,0,0,0,0,0,0,0.0,0,0,0.0,0,26,0,3,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-ansible\tripleo_ansible\roles\tripleo_ceph_distribute_keys\tasks\distribute_conf_and_keys.yaml,playbook,0,0,0,0,0,0,0.118238744,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\kubernetes-sigs\kubespray\roles\download\tasks\download_container.yml,playbook,115,0,1,116,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,116,0,0,Large Task,cs5,cs5
+download_container | Download image if required,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+Configure forwarder assets search,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-zuul-jobs\roles\configure-swap\tasks\ephemeral.yaml,playbook,107,0,14,6,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\trailofbits\algo\roles\dns\tasks\freebsd.yml,playbook,0,0,0,0,0,0,0.436808487,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ArdanaCLM\cobbler-ansible\roles\cobbler\tasks\get-rhel-loader.yml,playbook,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,4,Inconsistent Naming Convention ,cs7,cs7
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,30,0,0,Large Task,cs5,cs5
+Avi GslbGeoDbProfile | Create or Update GslbGeoDbProfile,task,0,0,0,0,0,0,0.0,0,0,0.0,0,26,0,0,Large Task,cs5,cs5
+Create first time ssl cert with certbot,task,0,0,0,0,0,0,0.0,0,0,0.0,0,18,0,0,Large Task,cs5,cs5
+Avi HardwareSecurityModuleGroup | Create or Update HardwareSecurityModuleGroup,task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,78,0,Long Task Name,cs6,cs6
+Wait for API to return 200 - mTLS,task,0,0,0,0,0,0,0.0,0,0,0.0,0,18,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\community-automation\ansible\roles\http_start\tasks\http_start.yml,playbook,0,0,0,0,0,0,0.163117335,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+Generate diskimage-builder images,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\nexcess\ansible-playbook-cloudhost\playbooks\tasks\import-rename.yml,playbook,90,0,18,5,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\spantaleev\matrix-docker-ansible-deploy\roles\custom\matrix-synapse\tasks\init.yml,playbook,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,5,Inconsistent Naming Convention ,cs7,cs7
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,43,0,0,Large Task,cs5,cs5
+Generate synapse metrics proxying configuration for matrix-nginx-proxy (matrix.DOMAIN/metrics/synapse/main-process),task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,115,0,Long Task Name,cs6,cs6
+Register synapse metrics proxying configuration with matrix-nginx-proxy (matrix.DOMAIN/metrics/synapse/main-process),task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,116,0,Long Task Name,cs6,cs6
+Generate synapse worker metrics proxying configuration for matrix-nginx-proxy (matrix.DOMAIN/metrics/synapse/worker),task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,116,0,Long Task Name,cs6,cs6
+Register synapse worker metrics proxying configuration with matrix-nginx-proxy (matrix.DOMAIN/metrics/synapse/worker),task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,117,0,Long Task Name,cs6,cs6
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\ibm-spectrum-scale-install-infra\roles\nfs\node\tasks\install_dir_pkg.yml,playbook,198,0,19,10,0,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\ibm-spectrum-scale-install-infra\roles\nfs\node\tasks\install_dir_pkg.yml,playbook,198,0,19,10,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\ibm-spectrum-scale-install-infra\roles\nfs\node\tasks\install_dir_pkg.yml,playbook,0,0,0,0,0,0,0.683976103,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,19,0,0,Large Task,cs5,cs5
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\ibm-spectrum-scale-install-infra\roles\scale_fileauditlogging\node\tasks\install_local_pkg.yml,playbook,127,0,13,9,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,28,0,0,Large Task,cs5,cs5
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,18,0,0,Large Task,cs5,cs5
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\ibm-spectrum-scale-install-infra\roles\scale_object\node\tasks\install_remote_pkg.yml,playbook,88,0,10,8,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,35,0,0,Large Task,cs5,cs5
+Configure nginx when inspector boot mode is http,task,0,0,0,0,0,0,0.0,0,0,0.0,0,36,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\cjeanner\tripleo-lab\roles\builder\tasks\libvirt.yaml,playbook,172,0,3,58,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Create undercloud image based on {{ base_image_name }},task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+create empty image for non-undercloud,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\license_manager.yml,playbook,22,1,0,0,0,6,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\license_manager.yml,playbook,0,0,0,0,0,6,0.0,0,0,0.0,0,0,0,0,high playbook coupling,cs3,cs3
+create report,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,0,Large Task,cs5,cs5
+Start Heimdall,task,0,0,0,0,0,0,0.0,0,0,0.0,0,51,0,0,Large Task,cs5,cs5
+Create Heimdall container,task,0,0,0,0,0,0,0.0,0,0,0.0,0,25,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\HCL-TECH-SOFTWARE\connections-automation\roles\hcl\docs\register-docs-in-news\tasks\main.yml,playbook,0,0,0,0,0,0,0.502561314,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\starlingx\ansible-playbooks\playbookconfig\src\playbooks\roles\update-subcloud\prepare-env\tasks\main.yml,playbook,69,0,14,4,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\oravirt\ansible-oracle\roles\oraswgi_manage_patches\tasks\main.yml,playbook,201,0,12,11,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+gi_opatch | Manage opatchauto patches for GI (after software only install),task,0,0,0,0,0,0,0.0,0,0,0.0,0,27,0,0,Large Task,cs5,cs5
+gi_opatch | Manage opatchauto patches for GI (after software only install),task,0,0,0,0,0,0,0.0,0,0,0.0,0,27,0,0,Long Task Name,cs6,cs6
+gi_opatch | Manage opatchauto patches for GI,task,0,0,0,0,0,0,0.0,0,0,0.0,0,25,0,0,Large Task,cs5,cs5
+gi_opatch | Manage non opatchauto patches for GI,task,0,0,0,0,0,0,0.0,0,0,0.0,0,26,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\AtlasOfLivingAustralia\ala-install\ansible\roles\fieldguide\tasks\main.yml,playbook,0,0,0,0,0,0,0.408762411,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\alvistack\ansible-role-jira\tasks\main.yml,playbook,144,0,11,13,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\alvistack\ansible-role-jira\tasks\main.yml,playbook,0,0,0,0,0,0,0.28504349,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+include release specific variables,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+include release specific tasks,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+prepare directories,task,0,0,0,0,0,0,0.0,0,0,0.0,0,23,0,0,Large Task,cs5,cs5
+copy templates,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,0,Large Task,cs5,cs5
+prepare files,task,0,0,0,0,0,0,0.0,0,0,0.0,0,19,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\nuancier\tasks\main.yml,playbook,110,0,12,8,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+copy sundry nuancier configuration,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+replace the nuancier configuration file by the one with the normal user,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\simple-koji-ci\tasks\main.yml,playbook,0,0,0,0,0,0,0.451509504,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+copy simple-koji-ci configuration,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\starlingx\ansible-playbooks\playbookconfig\src\playbooks\roles\bootstrap\store-passwd\tasks\main.yml,playbook,122,0,5,21,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,60,0,0,Large Task,cs5,cs5
+Store admin password,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,0,Large Task,cs5,cs5
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+Store service passwords,task,0,0,0,0,0,0,0.0,0,0,0.0,0,18,0,0,Large Task,cs5,cs5
+Gather variables for each operating system,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+add OS specific variables,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\deploy\tasks\main.yml,playbook,0,0,0,0,0,0,0.238697476,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ansible\ansible-zuul-jobs\playbooks\ansible-security-trendmicro-deepsec-appliance\roles\tm-deepsec-aws-setup\tasks\main.yml,playbook,179,0,18,10,0,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ansible\ansible-zuul-jobs\playbooks\ansible-security-trendmicro-deepsec-appliance\roles\tm-deepsec-aws-setup\tasks\main.yml,playbook,179,0,18,10,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,79,0,0,Large Task,cs5,cs5
+add OS specific variables,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,0,Large Task,cs5,cs5
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,12,0,0,Large Task,cs5,cs5
+include distribution tasks,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+save cephadm playbook command to shell script,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+search triple_run_cephadm_output of cephadm run(s) non-zero return codes,task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,72,0,Long Task Name,cs6,cs6
+Create and start container,task,0,0,0,0,0,0,0.0,0,0,0.0,0,23,0,0,Large Task,cs5,cs5
+install unarchive module pkgs...,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\oravirt\ansible-oracle\roles\orahost\tasks\main.yml,playbook,551,0,53,10,0,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\oravirt\ansible-oracle\roles\orahost\tasks\main.yml,playbook,551,0,53,10,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Install custom packages required by Oracle on SLES (oracle_packages_sles),task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,73,0,Long Task Name,cs6,cs6
+Install default packages required by Oracle on SLES (version dependant),task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,71,0,Long Task Name,cs6,cs6
+Timezone,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+filesytem | mount dir,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+Flush Buffer Cache,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+Configure SSL,task,0,0,0,0,0,0,0.0,0,0,0.0,0,58,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-openstack\ansible-nfv\roles\configuration\switches_config\tasks\main.yml,playbook,0,0,0,0,0,0,0.290906192,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\pagure\fedmsg\tasks\main.yml,playbook,137,0,12,9,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\pagure\fedmsg\tasks\main.yml,playbook,0,0,0,0,0,0,0.442769935,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+setup basic /etc/fedmsg.d/ contents,task,0,0,0,0,0,0,0.0,0,0,0.0,0,18,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\bodhi2\backend\tasks\main.yml,playbook,341,0,37,9,0,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\bodhi2\backend\tasks\main.yml,playbook,341,0,37,9,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+install needed packages,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+add apache user to the masher group so it can talk to the monitoring socket,task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,75,0,Long Task Name,cs6,cs6
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\coopdevs\odoo-role\tasks\main.yml,playbook,315,0,39,8,8,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\coopdevs\odoo-role\tasks\main.yml,playbook,0,0,0,0,8,0,0.0,0,0,0.0,0,0,0,0,high playbook coupling,cs3,cs3
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\coopdevs\odoo-role\tasks\main.yml,playbook,315,0,39,8,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Install system packages,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+Force update odoo modules,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+Update in Odoo pip upgraded community modules,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+Build the list of new modules to install,task,0,0,0,0,0,0,0.0,0,0,0.0,0,15,0,0,Large Task,cs5,cs5
+Install only new Odoo modules,task,0,0,0,0,0,0,0.0,0,0,0.0,0,19,0,0,Large Task,cs5,cs5
+Run docker postgres barman container,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+Configure and start cloudwatch agent,task,0,0,0,0,0,0,0.0,0,0,0.0,0,26,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ConnectBox\connectbox-pi\ansible\roles\ansible-postgresql\tasks\main.yml,playbook,98,0,18,5,4,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\oravirt\ansible-oracle\roles\oradb_rman\tasks\main.yml,playbook,355,0,24,15,0,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\oravirt\ansible-oracle\roles\oradb_rman\tasks\main.yml,playbook,355,0,24,15,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\oravirt\ansible-oracle\roles\oradb_rman\tasks\main.yml,playbook,355,0,24,15,0,0,0.0,0,0,0.0,0,0,0,0,Insufficient Modularization,cs9,cs9
+copy RMAN scipts,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+Template tnsnames.ora for rman catalog,task,0,0,0,0,0,0,0.0,0,0,0.0,0,29,0,0,Large Task,cs5,cs5
+Wallet create,task,0,0,0,0,0,0,0.0,0,0,0.0,0,26,0,0,Large Task,cs5,cs5
+List wallet contents,task,0,0,0,0,0,0,0.0,0,0,0.0,0,26,0,0,Large Task,cs5,cs5
+Wallet createCredential,task,0,0,0,0,0,0,0.0,0,0,0.0,0,31,0,0,Large Task,cs5,cs5
+Wallet modifyCredential to ensure password is up to date,task,0,0,0,0,0,0,0.0,0,0,0.0,0,30,0,0,Large Task,cs5,cs5
+Register Database in RMAN Catalog,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,0,Large Task,cs5,cs5
+Execute RMAN-Script at playbook,task,0,0,0,0,0,0,0.0,0,0,0.0,0,24,0,0,Large Task,cs5,cs5
+Add Environment variables to /etc/cron.d,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+Create crontab entries for RMAN Backup,task,0,0,0,0,0,0,0.0,0,0,0.0,0,32,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\NationalGenomicsInfrastructure\irma-provision\roles\taca\tasks\main.yml,playbook,74,0,19,5,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Azure\azure_preview_modules\tests\integration\targets\azure_rm_publicipaddress\tasks\main.yml,playbook,95,0,19,5,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Azure\azure_modules\tests\integration\targets\azure_rm_mysqlserver\tasks\main.yml,playbook,585,0,85,7,0,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Azure\azure_modules\tests\integration\targets\azure_rm_mysqlserver\tasks\main.yml,playbook,585,0,85,7,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Azure\azure_modules\tests\integration\targets\azure_rm_mysqlserver\tasks\main.yml,playbook,585,0,85,7,0,0,0.0,0,0,0.0,0,0,0,0,Insufficient Modularization,cs9,cs9
+Assert that facts are returned,task,0,0,0,0,0,0,0.0,0,0,0.0,0,22,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\roles\ad_hoc_reporting\tasks\main.yml,playbook,169,0,13,12,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+install single user access mongodb replica scripts,task,0,0,0,0,0,0,0.0,0,0,0.0,0,24,0,0,Large Task,cs5,cs5
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,72,0,0,Large Task,cs5,cs5
+Creating firewall rules,task,0,0,0,0,0,0,0.0,0,0,0.0,0,40,0,0,Large Task,cs5,cs5
+Update DHCP for Interface {{ set_network_ipv4_dhcp_label }},task,0,0,0,0,0,0,0.0,0,0,0.0,0,18,0,8,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\glusterfs\tasks\main.yml,playbook,0,0,0,0,0,0,0.269161292,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+Configure RM API credentials,task,0,0,0,0,0,0,0.0,0,0,0.0,0,18,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\pagure\frontend\tasks\main.yml,playbook,423,0,48,8,0,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\pagure\frontend\tasks\main.yml,playbook,0,0,0,0,5,5,0.0,0,0,0.0,0,0,0,0,high playbook coupling,cs3,cs3
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\pagure\frontend\tasks\main.yml,playbook,423,0,48,8,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+install needed packages,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,0,Large Task,cs5,cs5
+copy sundry pagure configuration,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+Install the SSL cert so that we can use https,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+set sebooleans so pagure can talk to the network (db + redis),task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,61,0,Long Task Name,cs6,cs6
+"Start and enable httpd, postfix, pagure_milter",task,0,0,0,0,0,0,0.0,0,0,0.0,0,28,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CenterForOpenScience\cos-ansible-base\roles\skel\tasks\main.yml,playbook,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,5,Inconsistent Naming Convention ,cs7,cs7
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\roles\antivirus\tasks\main.yml,playbook,76,0,8,8,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Create api protection client,task,0,0,0,0,0,0,0.0,0,0,0.0,0,25,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Cloudbox\Cloudbox\roles\settings\tasks\main2.yml,playbook,0,0,0,0,5,0,0.0,0,0,0.0,0,0,0,0,high playbook coupling,cs3,cs3
+Update admin user id and project id in hieradata static.yaml,task,0,0,0,0,0,0,0.0,0,0,0.0,0,22,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\ansible-nginx\tasks\nginx_servers.yml,playbook,167,0,16,10,0,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\ansible-nginx\tasks\nginx_servers.yml,playbook,167,0,16,10,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Create global webroot directories if allowed,task,0,0,0,0,0,0,0.0,0,0,0.0,0,19,0,0,Large Task,cs5,cs5
+Create default welcome page if enabled,task,0,0,0,0,0,0,0.0,0,0,0.0,0,19,0,0,Large Task,cs5,cs5
+Generate nginx server configuration,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,0,Large Task,cs5,cs5
+Disable nginx server configuration,task,0,0,0,0,0,0,0.0,0,0,0.0,0,18,0,0,Large Task,cs5,cs5
+Enable nginx server configuration,task,0,0,0,0,0,0,0.0,0,0,0.0,0,23,0,0,Large Task,cs5,cs5
+Install the python venv,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+Create octavia dir,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+Unknown,task,0,0,0,0,0,0,0.0,0,0,0.0,0,23,0,0,Large Task,cs5,cs5
+Install DLRN deps,task,0,0,0,0,0,0,0.0,0,0,0.0,0,18,0,0,Large Task,cs5,cs5
+Async:: Provisioning AWS_EC2 Resource,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,3,Large Task,cs5,cs5
+deprovision os_router,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,0,Large Task,cs5,cs5
+provision os_router,task,0,0,0,0,0,0,0.0,0,0,0.0,0,21,0,0,Large Task,cs5,cs5
+provision/deprovision os_zone,task,0,0,0,0,0,0,0.0,0,0,0.0,0,24,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CentOS-PaaS-SIG\linchpin\linchpin\provision\roles\azure\tasks\provision_res_defs.yml,playbook,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,4,Inconsistent Naming Convention ,cs7,cs7
+Setup rabbitmy/erlang repo from packagecloud for RH,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+Setup rabbit repo from packagecloud for RH,task,0,0,0,0,0,0,0.0,0,0,0.0,0,16,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\deploy\tasks\tasks\raw.yml,playbook,0,0,0,0,0,0,0.0,0,0,0.0,4,0,0,0,Inconsistent Naming Convention ,cs7,cs7
+Deploy the RBD Mirror daemon,task,0,0,0,0,0,0,0.0,0,0,0.0,0,28,0,0,Large Task,cs5,cs5
+Configure RBD mirror,task,0,0,0,0,0,0,0.0,0,0,0.0,0,29,0,0,Large Task,cs5,cs5
+Replaces device configuration of listed acl with provided configuration,task,0,0,0,0,0,0,0.0,0,0,0.0,0,42,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\debops\ansible\playbooks\service\roundcube.yml,playbook,107,1,0,0,0,12,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\debops\ansible\playbooks\service\roundcube.yml,playbook,107,1,0,0,0,0,0.0,0,0,0.0,0,0,0,0,Insufficient Modularization,cs9,cs9
+Install and manage Roundcube Web mail,play,0,0,0,0,0,0,0.0,147,0,0.0,0,0,0,0,Large Play,cs8,cs8
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ansible\ansible-lint\examples\playbooks\rule-partial-become-without-become-pass.yml,playbook,0,0,0,0,0,0,0.30930086,0,0,0.0,0,0,0,0,Incohesive Playbook,cs1,cs1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\ansible-collections-openstack\ci\roles\security_group\tasks\rules.yml,playbook,341,0,53,6,0,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\ansible-collections-openstack\ci\roles\security_group\tasks\rules.yml,playbook,341,0,53,6,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+"Update security group with new set of security group rules, dropping egress rules for IPv4 and IPv6",task,0,0,0,0,0,0,0.0,0,0,0.0,0,29,0,0,Large Task,cs5,cs5
+"Update security group with new set of security group rules, dropping egress rules for IPv4 and IPv6",task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,99,0,Long Task Name,cs6,cs6
+Define dense representation of security group rules with multiple remote ip prefixes per rule,task,0,0,0,0,0,0,0.0,0,0,0.0,0,18,0,0,Large Task,cs5,cs5
+"update hosts file for localhost.localhost (workaround for puppet, discovered on centos7)",task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,88,0,Long Task Name,cs6,cs6
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\bluebanquise\bluebanquise\collections\monitoring\roles\prometheus\tasks\server_ipmi_exporter.yml,playbook,0,0,0,0,0,0,0.0,0,0,0.0,4,0,0,4,Inconsistent Naming Convention ,cs7,cs7
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-gpte-devopsautomation\FTL\courses\cp-ocp-admin-storage\lab_storage_management\solve_lab.yml,playbook,144,1,22,6,0,1,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-gpte-devopsautomation\FTL\courses\cp-ocp-admin-storage\lab_storage_management\solve_lab.yml,playbook,144,1,22,6,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-gpte-devopsautomation\FTL\courses\cp-ocp-admin-storage\lab_storage_management\solve_lab.yml,playbook,144,1,22,6,0,0,0.0,0,0,0.0,0,0,0,0,Insufficient Modularization,cs9,cs9
+Solve lab App Management Basics of cp-ocp-admin-storage workshop,play,0,0,0,0,0,0,0.0,148,22,6.727272727,0,0,0,0,Large Play,cs8,cs8
+Avi StringGroup | Create or Update StringGroup,task,0,0,0,0,0,0,0.0,0,0,0.0,0,27,0,0,Large Task,cs5,cs5
+FileGenerator updates for tenant-specific resources,task,0,0,0,0,0,0,0.0,0,0,0.0,0,32,0,0,Large Task,cs5,cs5
+create a new directory for each tenant under $deploy/site-config/multi-tenant/,task,0,0,0,0,0,0,0.0,0,0,0.0,0,5,0,0,Long Task Name,cs6,cs6
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\ansible-role-python_venv_build\tests\test.yml,playbook,167,4,21,6,1,0,0.0,0,0,0.0,0,0,0,0,complex playbook,cs2,cs2
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\ansible-role-python_venv_build\tests\test.yml,playbook,167,4,21,6,0,0,0.0,0,0,0.0,0,0,0,0,Large Playbook,cs4,cs4
+Install the EPEL repository,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ArdanaCLM\ardana-ansible\roles\service-guest-image\tasks\upload_image.yml,playbook,0,0,0,0,0,0,0.0,0,0,0.0,0,0,0,0,Inconsistent Naming Convention ,cs7,cs7
+service-guest-image | upload-image | find image that matches the checksum and name,task,0,0,0,0,0,0,0.0,0,0,0.0,0,19,0,0,Large Task,cs5,cs5
+service-guest-image | upload-image | find image that matches the checksum and name,task,0,0,0,0,0,0,0.0,0,0,0.0,0,0,82,0,Long Task Name,cs6,cs6
+service-guest-image | upload-image | Upload new datastore image,task,0,0,0,0,0,0,0.0,0,0,0.0,0,20,0,0,Large Task,cs5,cs5
+Ensure the VM disk volumes exist,task,0,0,0,0,0,0,0.0,0,0,0.0,0,17,0,0,Large Task,cs5,cs5

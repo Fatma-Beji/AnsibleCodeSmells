@@ -1,0 +1,2288 @@
+Playbook Path,Play Name,Task Name,duplicated code,complex playbook,high playbook coupling,Large Playbook,Unnecessary set_fact,Overriding facts,Incohesive Playbook,Unecessary Abstraction,Insufficient Modularization,Inconsistent Naming Convention,Large Play,Unnamed Play,Large Task,Long Task Name
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\davestephens\ansible-nas\roles\heimdall\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Start Heimdall,,,,,,,,,,,,,1,0
+,,Create Heimdall group,,,,,,,,,,,,,0,0
+,,Create Heimdall user,,,,,,,,,,,,,0,0
+,,Create Heimdall Directories,,,,,,,,,,,,,0,0
+,,Create Heimdall container,,,,,,,,,,,,,1,0
+,,Stop Heimdall,,,,,,,,,,,,,0,0
+,,Stop Heimdall,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ansible\ansible-lint\examples\playbooks\rule-partial-become-without-become-pass.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,unknown,,,,,,,,,,,,0,0,,
+,,Unknown,,,,,,,,,,,,,0,0
+,unknown,,,,,,,,,,,,0,0,,
+,,Foo,,,,,,,,,,,,,0,0
+,unknown,,,,,,,,,,,,0,0,,
+,,Accepts a become from higher scope,,,,,,,,,,,,,0,0
+,unknown,,,,,,,,,,,,0,0,,
+,,Accepts a become from a lower scope,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\devopsschool-demo-labs-projects\tesco-git-ansible-nov-2019\murthy\drpidx.yaml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,delete index.html,,,,,,,,,,,,0,0,,
+,,delete index,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\HCL-TECH-SOFTWARE\connections-automation\roles\hcl\docs\register-docs-in-news\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Verify if Profile already exists,,,,,,,,,,,,,0,0
+,,Verify if pid file,,,,,,,,,,,,,0,0
+,,Generate Response file,,,,,,,,,,,,,0,0
+,,Register Docs in CNX News,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\freeipa\ansible-freeipa\playbooks\sudorule\ensure-sudorule-host-member-is-absent.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,Tests,,,,,,,,,,,,0,0,,
+,,Ensure host 'server' is absent in sudorule,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\linux-system-roles\network\tests\tasks\provider\default_with_nm.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Include network role,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Juniper\contrail-ansible\kolla-ansible\ansible\roles\sahara\handlers\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Restart sahara-api container,,,,,,,,,,,,,1,0
+,,Restart sahara-engine container,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\geerlingguy\ansible-role-php-xhprof\molecule\default\converge.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,Converge,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\sodafoundation\installer\ansible\roles\osdsdock\scenarios\ceph.yml,,,0,1,0,1,1,0,1,0,0,0,,,,
+,,ceph pre-flight check,,,,,,,,,,,,,0,0
+,,check ceph exists,,,,,,,,,,,,,0,0
+,,check the installed ceph version,,,,,,,,,,,,,0,0
+,,set_fact installed_ceph_version,,,,,,,,,,,,,0,0
+,,check if the installed ceph is healthy or not,,,,,,,,,,,,,0,0
+,,set_fact ceph_health,,,,,,,,,,,,,0,0
+,,stat /etc/ceph/ceph.conf,,,,,,,,,,,,,0,0
+,,"paranoia check for ""/etc/ceph/ceph.conf"" and its consistency",,,,,,,,,,,,,0,0
+,,check ceph cluster member status,,,,,,,,,,,,,0,0
+,,set_fact ceph_cluster_health_status,,,,,,,,,,,,,0,0
+,,check if the existing ceph is the required version or not,,,,,,,,,,,,,1,0
+,,set_fact ceph_version_check,,,,,,,,,,,,,0,0
+,,Fail if downgrade of the existing ceph required.,,,,,,,,,,,,,0,0
+,,install notario package with pip when ceph backend enabled,,,,,,,,,,,,,0,0
+,,configure opensds global info osdsdock ceph,,,,,,,,,,,,,1,0
+,,copy opensds ceph backend file to ceph config file if specify ceph backend,,,,,,,,,,,,,0,0
+,,incorrect - older/newer - version ceph is running properly,,,,,,,,,,,,,0,0
+,,"ceph cluster member health check, especially osds are up or not",,,,,,,,,,,,,0,0
+,,uninstall ceph on upgrade/downgrade installation,,,,,,,,,,,,,0,0
+,,install ceph,,,,,,,,,,,,,0,0
+,,wait until ceph stabilizes,,,,,,,,,,,,,0,0
+,,create specified pools and initialize them with default pool size.,,,,,,,,,,,,,0,0
+,,wait until defined ceph pooll are visible,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\starlingx\ansible-playbooks\playbookconfig\src\playbooks\roles\update-subcloud\prepare-env\tasks\main.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,Get subcloud active controller,,,,,,,,,,,,,0,0
+,,Set subcloud floating address fact,,,,,,,,,,,,,0,0
+,,Retrieve software version number,,,,,,,,,,,,,0,0
+,,Fail if software version is not defined,,,,,,,,,,,,,0,0
+,,Retrieve system mode,,,,,,,,,,,,,0,0
+,,Fail if system mode is not defined,,,,,,,,,,,,,0,0
+,,"Set host software version, system mode",,,,,,,,,,,,,0,0
+,,Set config path fact,,,,,,,,,,,,,0,0
+,,Get target subcloud network,,,,,,,,,,,,,0,0
+,,Set the target network name variable,,,,,,,,,,,,,0,0
+,,Get ifname of the existing subcloud network of controller-0,,,,,,,,,,,,,0,0
+,,Fail if subcloud network interface of controller-0 is not assigned,,,,,,,,,,,,,0,0
+,,Set sc_if_c0 fact,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Get ifname of the existing subcloud network of controller-1,,,,,,,,,,,,,0,0
+,,Fail if subcloud network interface of controller-1 is not assigned,,,,,,,,,,,,,0,0
+,,Set sc_if_c1 fact,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\ibm-spectrum-scale-install-infra\roles\scale_object\node\tasks\install_remote_pkg.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,install | Stat remote installation package,,,,,,,,,,,,,0,0
+,,install | Check remote installation package,,,,,,,,,,,,,0,0
+,,install | Stat checksum file,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | Read checksum from file,,,,,,,,,,,,,0,0
+,,install | Compare checksums,,,,,,,,,,,,,0,0
+,,install | Stat extracted packages,,,,,,,,,,,,,0,0
+,,install | Make installation package executable,,,,,,,,,,,,,0,0
+,,install | Extract installation package,,,,,,,,,,,,,0,0
+,,install | Stat extracted packages,,,,,,,,,,,,,0,0
+,,install | Check extracted packages,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,install | obj path,,,,,,,,,,,,,0,0
+,,install | Find all packages,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | Check valid scale openstack-swift packages,,,,,,,,,,,,,0,0
+,,install | Check valid python3-swift package,,,,,,,,,,,,,0,0
+,,install | Check valid scale spectrum-scale-object package,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-ansible-haproxy_server\tasks\haproxy_ssl_letsencrypt.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Install certbot from distro package,,,,,,,,,,,,,0,0
+,,Create first time ssl cert with certbot,,,,,,,,,,,,,1,0
+,,Create certbot pre hook,,,,,,,,,,,,,0,0
+,,Create certbot post renewal hook,,,,,,,,,,,,,0,0
+,,Create new pem file for haproxy,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\dellhpc\omnia\security\roles\secure_login_node\tasks\ipa_configuration.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Modify the freeipa global password policy,,,,,,,,,,,,,0,0
+,,Create sysadmin group,,,,,,,,,,,,,0,0
+,,Create sysadmin_sudo rule,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\oravirt\ansible-oracle\roles\oraswgi_manage_patches\tasks\main.yml,,,0,0,0,1,0,0,0,0,0,0,,,,
+,,gi_opatch | check if GI has been configured,,,,,,,,,,,,,0,0
+,,gi_opatch | set fact for patch_before_rootsh,,,,,,,,,,,,,0,0
+,,gi_opatch | Create patch-base directory (version specific),,,,,,,,,,,,,0,0
+,,include transfer-files.yml,,,,,,,,,,,,,0,0
+,,include unpack-files.yml,,,,,,,,,,,,,0,0
+,,include opatch-upgrade.yml,,,,,,,,,,,,,0,0
+,,gi_opatch | Check current opatch version,,,,,,,,,,,,,0,0
+,,gi_opatch | Configure ocm.rsp (1),,,,,,,,,,,,,0,0
+,,gi_opatch | Configure ocm.rsp (2),,,,,,,,,,,,,0,0
+,,gi_opatch | Manage opatchauto patches for GI (after software only install),,,,,,,,,,,,,1,0
+,,gi_opatch | Manage opatchauto patches for GI,,,,,,,,,,,,,1,0
+,,gi_opatch | Manage non opatchauto patches for GI,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\jdauphant\ansible-role-nginx\tasks\cloudflare_configuration.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Get list of CloudFlare IPv4,,,,,,,,,,,,,0,0
+,,Get list of CloudFlare IPv6,,,,,,,,,,,,,0,0
+,,Create independent configuration for CloudFlare,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-ansible\tripleo_ansible\playbooks\cli-overcloud-node-growvols.yaml,,,0,0,0,0,1,0,1,0,0,0,,,,
+,Overcloud Node Grow Volumes,,,,,,,,,,,,0,0,,
+,,Set growvols_args,,,,,,,,,,,,,0,0
+,,Output growvols_args,,,,,,,,,,,,,0,0
+,,Find the growvols utility,,,,,,,,,,,,,0,0
+,,Setting growvols path,,,,,,,,,,,,,0,0
+,,Running {{ growvols_path }} {{growvols_args}},,,,,,,,,,,,,0,0
+,,Output of growvols stdout,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\AtlasOfLivingAustralia\ala-install\ansible\dashboard.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,unknown,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-openstack\khaleesi\roles\patch_rpm\tasks\patch-rpm.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Apply patch on dist-git,,,,,,,,,,,,,0,0
+,,Write the epoch so the package does not get updated by older versions,,,,,,,,,,,,,0,0
+,,Build an rpm from patched dist-git,,,,,,,,,,,,,0,0
+,,set fact - rpm build result,,,,,,,,,,,,,0,0
+,,Check for 'non-exist file' errors,,,,,,,,,,,,,0,0
+,,Fail run if rpm build failed,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\yatesr\ansible-timezone\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-openstack\khaleesi\playbooks\installer\rdo-manager\undercloud\run.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,install the undercloud,,,,,,,,,,,,0,0,,
+,,"update hosts file for localhost.localhost (workaround for puppet, discovered on centos7)",,,,,,,,,,,,,0,1
+,,install the undercloud,,,,,,,,,,,,,0,0
+,,get overview about what went wrong in undercloud installation,,,,,,,,,,,,,0,0
+,,check if undercloud failed,,,,,,,,,,,,,0,0
+,,copy files to home,,,,,,,,,,,,,0,0
+,,chown files for stack user,,,,,,,,,,,,,0,0
+,confirm installing the undercloud is idempotent,,,,,,,,,,,,0,0,,
+,,install the undercloud,,,,,,,,,,,,,0,0
+,,get overview about what went wrong in idempotent undercloud installation,,,,,,,,,,,,,0,0
+,,check if idempotent undercloud installation failed,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\AtlasOfLivingAustralia\ala-install\ansible\roles\fieldguide\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,add nginx vhost if configured,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,ensure target directories exist [data subdirectories etc.],,,,,,,,,,,,,0,0
+,,copy all config.properties,,,,,,,,,,,,,0,0
+,,set data ownership,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-quickstart\roles\libvirt\setup\undercloud\tasks\customize_overcloud.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,Create overcloud customize script,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,check if overcloud image is already extracted,,,,,,,,,,,,,0,0
+,,Extract {{ overcloud_image }} image,,,,,,,,,,,,,0,0
+,,Perform extra overcloud customizations,,,,,,,,,,,,,0,0
+,,Copy updated {{ overcloud_image }} image back to undercloud,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Juniper\contrail-ansible\kolla-ansible\ansible\roles\panko\tasks\pull.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Pulling panko-api image,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\sassoftware\viya4-deployment\roles\multi-tenancy\tasks\tenant-pod-templates.yaml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,FileGenerator updates for tenant-specific resources,,,,,,,,,,,,,1,0
+,,delete tenant-specific resource directories if present,,,,,,,,,,,,,0,0
+,,create a new directory for each tenant under $deploy/site-config/multi-tenant/,,,,,,,,,,,,,0,1
+,,copy - sas-programming-environment files,,,,,,,,,,,,,0,0
+,,list all the pod templates to be updated,,,,,,,,,,,,,0,0
+,,replace all occurrences of SAS-TENANT-ID with the ID of the tenant,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\ansible-role-python_venv_build\tests\test.yml,,,1,1,0,1,1,0,0,0,0,0,,,,
+,Prepare web server on localhost to serve python packages,,,,,,,,,,,,0,0,,
+,Verify not using a build host,,,,,,,,,,,,0,0,,
+,,Set venv_build_archive_path and venv_install_source_path,,,,,,,,,,,,,0,0
+,,Install EPEL gpg keys,,,,,,,,,,,,,0,0
+,,Install the EPEL repository,,,,,,,,,,,,,1,0
+,,Install distro packages,,,,,,,,,,,,,0,0
+,,Enable and start nginx,,,,,,,,,,,,,0,0
+,Verify using a build host,,,,,,,,,,,,0,0,,
+,,Execute venv install,,,,,,,,,,,,,0,0
+,,refresh local facts,,,,,,,,,,,,,0,0
+,,Show the ansible_local facts,,,,,,,,,,,,,0,0
+,,Verify that the facts were set,,,,,,,,,,,,,0,0
+,,Find files/folders on targets,,,,,,,,,,,,,0,0
+,,Compile the folder list from the targets,,,,,,,,,,,,,0,0
+,,Show the files/folder from the targets,,,,,,,,,,,,,0,0
+,,Verify the folder list from the targets,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\UCCNetsoc\NaC\roles\git\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Install git,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\EMCECS\ECS-CommunityEdition\ui\ansible\clicmd_bootstrap.yml,,,0,0,0,1,0,0,0,0,0,0,,,,
+,Common | Ping data nodes before doing anything else,,,,,,,,,,,,0,0,,
+,,Unknown,,,,,,,,,,,,,0,0
+,Installer | Slice nodes into OS groups for package install,,,,,,,,,,,,0,0,,
+,,Unknown,,,,,,,,,,,,,0,0
+,CentOS 7 | Synchronize cache,,,,,,,,,,,,0,0,,
+,CentOS 7 | Install cached packages,,,,,,,,,,,,0,0,,
+,Installer | Disable torrent ffx,,,,,,,,,,,,0,0,,
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\theforeman\forklift\roles\freeipa_server\tasks\install_freeipa_server.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Install FreeIPA server packages (this could take a while),,,,,,,,,,,,,0,0
+,,Fix /etc/hosts record for self,,,,,,,,,,,,,0,0
+,,Fix /etc/hosts freeipa installation,,,,,,,,,,,,,0,0
+,,Ensure localhost record is in /etc/hosts,,,,,,,,,,,,,0,0
+,,Run FreeIPA Install,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-ansible\tripleo_ansible\roles\tripleo_packages\molecule\external_upgrade\prepare.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,Prepare,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\alvistack\ansible-role-jira\tasks\main.yml,,,0,0,0,1,0,0,1,0,0,0,,,,
+,,include default variables,,,,,,,,,,,,,0,0
+,,include release specific variables,,,,,,,,,,,,,1,0
+,,include release specific tasks,,,,,,,,,,,,,1,0
+,,groupadd,,,,,,,,,,,,,0,0
+,,useradd,,,,,,,,,,,,,0,0
+,,prepare directories,,,,,,,,,,,,,1,0
+,,copy templates,,,,,,,,,,,,,1,0
+,,prepare files,,,,,,,,,,,,,1,0
+,,patch /opt/atlassian/jira/atlassian-jira/WEB-INF/web.xml,,,,,,,,,,,,,0,0
+,,flush handlers,,,,,,,,,,,,,0,0
+,,systemctl start jira.service,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\HCL-TECH-SOFTWARE\connections-automation\playbooks\hcl\connections-setup-azure-oidc.yml,,,0,0,0,1,0,0,0,0,0,,,,,
+,Gather facts,,,,,,,,,,,,0,0,,
+,Start Dmgr,,,,,,,,,,,,0,0,,
+,Start WAS Nodes,,,,,,,,,,,,0,0,,
+,Start CNX Clusters,,,,,,,,,,,,0,0,,
+,Setup Azure AD OIDC authentication for Connections,,,,,,,,,,,,0,0,,
+,Synchronize WAS nodes,,,,,,,,,,,,0,0,,
+,Restart CNX Clusters,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\jmunixusers\cs-vm-build\roles\filezilla\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Install Filezilla package,,,,,,,,,,,,,0,0
+,,Create Filezilla configuration directory,,,,,,,,,,,,,0,0
+,,Copy template default Filezilla configuration,,,,,,,,,,,,,0,0
+,,Attempt to copy Filezilla filters,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ArdanaCLM\ardana-ansible\roles\service-guest-image\tasks\upload_image.yml,,,0,0,0,0,1,0,0,0,0,1,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,service-guest-image | upload-image | get checksum for new image,,,,,,,,,,,,,0,0
+,,service-guest-image | upload-image | find image that matches the checksum and name,,,,,,,,,,,,,1,1
+,,service-guest-image | upload-image | Upload new datastore image,,,,,,,,,,,,,1,0
+,,service-guest-image | upload-image | use image id from glance upload,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\debops\ansible\playbooks\service\redis_server.yml,,,0,0,0,1,0,0,0,0,0,,,,,
+,Manage Redis server,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\sensu\sensu-go-ansible\tests\integration\molecule\module_silence\converge.yml,,,1,1,0,1,0,0,0,0,0,0,,,,
+,Converge,,,,,,,,,,,,0,0,,
+,,Create silence without parameters,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Create silence with only check parameter,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Create silence with only check parameter idempotence,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Create silence with only subscription parameter,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Create silence with only subscription parameter idempotence,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Create a silence,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Test silence creation idempotence,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Modify a silence,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Create a second silence,,,,,,,,,,,,,0,0
+,,Fetch all silences,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Fetch a specific silence,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Delete a silence,,,,,,,,,,,,,0,0
+,,Fetch all silecnes,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Try to fetch non-existing silence,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\nuancier\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,install needed packages,,,,,,,,,,,,,0,0
+,,copy sundry nuancier configuration,,,,,,,,,,,,,1,0
+,,create pictures folder where we upload the pictures,,,,,,,,,,,,,0,0
+,,create the cache folder where nuancier creates the thumbnails,,,,,,,,,,,,,0,0
+,,create the database scheme,,,,,,,,,,,,,0,0
+,,replace the nuancier configuration file by the one with the normal user,,,,,,,,,,,,,1,0
+,,set sebooleans so nuancier can talk to the db,,,,,,,,,,,,,0,0
+,,apply selinux type to static files,,,,,,,,,,,,,0,0
+,,set sebooleans so apache can use glusterfs,,,,,,,,,,,,,0,0
+,,set sebooleans so apache can send emails,,,,,,,,,,,,,0,0
+,,apply selinux type to the wsgi file,,,,,,,,,,,,,0,0
+,,Install SAR script for nuancier,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\simple-koji-ci\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,install needed packages,,,,,,,,,,,,,0,0
+,,copy simple-koji-ci configuration,,,,,,,,,,,,,1,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Create /usr/share/fedmsg since apparently fedmsg doesn't do it anymore,,,,,,,,,,,,,0,0
+,,Start and enable the services we want,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-gpte-devopsautomation\FTL\courses\cp-ocp-admin-storage\lab_storage_management\solve_lab.yml,,,0,1,0,1,1,0,0,0,0,0,,,,
+,Solve lab App Management Basics of cp-ocp-admin-storage workshop,,,,,,,,,,,,0,0,,
+,,switch to app management project just in case,,,,,,,,,,,,,0,0
+,,Check for a PVC called 'mapit-storage',,,,,,,,,,,,,0,0
+,,register the pvc information as a fact if the pvc exists,,,,,,,,,,,,,0,0
+,,ensure pvc is bound,,,,,,,,,,,,,0,0
+,,Check for existing mapit storage configuration,,,,,,,,,,,,,0,0
+,,register the deploymentconfig as a fact,,,,,,,,,,,,,0,0
+,,Add storage to mapit app,,,,,,,,,,,,,0,0
+,,Check for deployed mapit storage configuration,,,,,,,,,,,,,0,0
+,,register the new deploymentconfig information as a fact,,,,,,,,,,,,,0,0
+,,check the volume information in the deploymentconfig,,,,,,,,,,,,,0,0
+,,Check for a PVC called 'mapit-storage',,,,,,,,,,,,,0,0
+,,register the pvc information as a fact,,,,,,,,,,,,,0,0
+,,wait for pvc to be bound,,,,,,,,,,,,,0,0
+,,Check for DeploymentConfig revision,,,,,,,,,,,,,0,0
+,,get pod name for latest deployment config,,,,,,,,,,,,,0,0
+,,Wait for pod ready,,,,,,,,,,,,,0,0
+,,check for directory mount,,,,,,,,,,,,,0,0
+,,create test file in directory mount,,,,,,,,,,,,,0,0
+,,destroy the pod to test that storage is working,,,,,,,,,,,,,0,0
+,,get pod name for latest deployment config,,,,,,,,,,,,,0,0
+,,Wait for pod ready,,,,,,,,,,,,,0,0
+,,check for the file in the new pod,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\spantaleev\nextcloud-docker-ansible-deploy\roles\custom\nextcloud_collabora_online\tasks\configure_collabora_app.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Fail if Collabora not enabled,,,,,,,,,,,,,0,0
+,,Ensure nextcloud-apache is started,,,,,,,,,,,,,0,0
+,,"Wait a while, so that Nextcloud can manage to start",,,,,,,,,,,,,0,0
+,,Check existence of Nextcloud network in Docker,,,,,,,,,,,,,0,0
+,,Configure Collabora app,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ansible-network\resource_module_models\replaced_example_01.yaml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Replace module attributes of given access-groups,,,,,,,,,,,,,0,0
+,,Replaces device configuration of listed acl with provided configuration,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\debops\ansible\playbooks\service\roundcube.yml,,,0,0,0,1,0,0,0,0,0,,,,,
+,Install and manage Roundcube Web mail,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\cjeanner\tripleo-lab\roles\builder\tasks\libvirt.yaml,,,0,0,0,1,1,0,1,0,0,0,,,,
+,,create overclouds range,,,,,,,,,,,,,0,0
+,,common tags,,,,,,,,,,,,,1,0
+,,Set nested KVM if wanted,,,,,,,,,,,,,0,0
+,,Create symlink if needed,,,,,,,,,,,,,0,0
+,,run tasks as virt_user user,,,,,,,,,,,,,1,0
+,,export LIBVIRT_DEFAULT_URI,,,,,,,,,,,,,0,0
+,,export LIBGUESTFS_BACKEND,,,,,,,,,,,,,0,0
+,,get default network XML content,,,,,,,,,,,,,0,0
+,,ensure default network is present,,,,,,,,,,,,,0,0
+,,run default network,,,,,,,,,,,,,0,0
+,,ensure network is active and autostart,,,,,,,,,,,,,0,0
+,,load ctlplane network,,,,,,,,,,,,,0,0
+,,create ctlplane network,,,,,,,,,,,,,0,0
+,,ensure ctlplane is active and autostart,,,,,,,,,,,,,0,0
+,,centos-7,,,,,,,,,,,,,0,0
+,,Modern CentOS,,,,,,,,,,,,,0,0
+,,are we re-deploying upon existing deploy,,,,,,,,,,,,,0,0
+,,update image in-place,,,,,,,,,,,,,0,0
+,,Create undercloud image based on {{ base_image_name }},,,,,,,,,,,,,1,0
+,,create undercloud swap file when needed,,,,,,,,,,,,,0,0
+,,create empty image for non-undercloud,,,,,,,,,,,,,1,0
+,,create overcloud swap files when needed,,,,,,,,,,,,,0,0
+,,create OSD(s) for ceph instances if any,,,,,,,,,,,,,0,0
+,,push proxy config if needed,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\fgci-org\fgci-ansible\admin_ohpc.yml,,,0,0,0,1,0,0,0,0,0,,,,,
+,Configure Admin Node,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\ibm-spectrum-scale-install-infra\roles\scale_fileauditlogging\node\tasks\yum\install.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,install | Install GPFS file audit logging packages,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\andrewrothstein\ansible-miniconda\subrepos\udst.ansible-conda\tests\integration\tasks\test-failures.yml,,,1,0,0,0,0,0,0,0,0,0,,,,
+,,install Conda packge that does not exist (expect failure),,,,,,,,,,,,,0,0
+,,verify failure,,,,,,,,,,,,,0,0
+,,install Conda packge version that does not exist (expect failure),,,,,,,,,,,,,0,0
+,,verify failure,,,,,,,,,,,,,0,0
+,,"install latest Conda packge, fixed at a specific version (expect failure)",,,,,,,,,,,,,0,0
+,,verify failure,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Juniper\contrail-ansible\kolla-ansible\ansible\roles\searchlight\tasks\bootstrap_service.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Running Searchlight bootstrap container,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ibm-mas\ansible-devops\ibm\mas_devops\roles\suite_manage_pvc_config\tasks\configure-manage-pvcs.yml,,,0,0,0,0,0,1,0,0,0,0,,,,
+,,Debug new Manage persistent volumes definitions,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Merge Manage Persistent Volumes configurations,,,,,,,,,,,,,0,0
+,,Debug Manage persistent volumes definitions,,,,,,,,,,,,,0,0
+,,Add the Persistent Volume definitions in ManageWorkspace CR,,,,,,,,,,,,,0,0
+,,Debug information,,,,,,,,,,,,,0,0
+,,Wait for ManageWorkspace to be ready (60s delay),,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\starlingx\ansible-playbooks\playbookconfig\src\playbooks\roles\bootstrap\store-passwd\tasks\main.yml,,,0,0,0,1,1,1,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Print warning if admin credentials are not stored in vault,,,,,,,,,,,,,0,0
+,,Set admin username and password facts,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,Look for password rules file,,,,,,,,,,,,,0,0
+,,Fail if password rules file is missing,,,,,,,,,,,,,0,0
+,,Get password rules,,,,,,,,,,,,,0,0
+,,Get password rules description,,,,,,,,,,,,,0,0
+,,Set password regex facts,,,,,,,,,,,,,0,0
+,,Fail if password regex cannot be found,,,,,,,,,,,,,0,0
+,,Set password regex description fact,,,,,,,,,,,,,0,0
+,,Validate admin password,,,,,,,,,,,,,0,0
+,,Fail if provided admin password does not meet required complexity,,,,,,,,,,,,,0,0
+,,Store admin password,,,,,,,,,,,,,1,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,Set temp keyring directory fact,,,,,,,,,,,,,0,0
+,,Create temp keyring directory,,,,,,,,,,,,,0,0
+,,Prefetch the keyring from the tarball,,,,,,,,,,,,,0,0
+,,Remove the unwanted directory,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,Store service passwords,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\kolla-ansible\ansible\roles\mistral\tasks\clone.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Cloning mistral source repository for development,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\debops\ansible\roles\kodi\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensure specified packages are in there desired state,,,,,,,,,,,,,0,0
+,,Create Kodi system group,,,,,,,,,,,,,0,0
+,,Create Kodi system user,,,,,,,,,,,,,0,0
+,,Create polkit configuration,,,,,,,,,,,,,0,0
+,,Remove polkit configuration,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\confluentinc\cp-ansible\playbooks\ksql.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,KSQL Status Finding,,,,,,,,,,,,0,0,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Populate service facts,,,,,,,,,,,,,0,0
+,,Determine Installation Pattern - Parallel or Serial,,,,,,,,,,,,,0,0
+,,Group Hosts by Installation Pattern,,,,,,,,,,,,,0,0
+,KSQL Parallel Provisioning,,,,,,,,,,,,0,0,,
+,,Unknown,,,,,,,,,,,,,0,0
+,KSQL Serial Provisioning,,,,,,,,,,,,0,0,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Proceed Prompt,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Juniper\contrail-ansible\kolla-ansible\ansible\roles\bifrost\tasks\start.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Starting bifrost deploy container,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-openstack\ansible-role-tripleo-collect-logs\playbooks\collect-logs.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,"Collect logs, create docs, publish",,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\michaeltchapman\networking-ansible\tools\devenv\centos-devstack-vqfx\roles\localvm\tasks\get_image.yml,,,0,0,0,0,0,1,0,0,0,0,,,,
+,,ensure local image directory exists,,,,,,,,,,,,,0,0
+,,get local image version,,,,,,,,,,,,,0,0
+,,check if we already have requested version,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,get image metadata,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Download box,,,,,,,,,,,,,0,0
+,,Extract image from box,,,,,,,,,,,,,0,0
+,,Copy image to base images folder,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\ibm-spectrum-scale-install-infra\roles\nfs\node\tasks\install_dir_pkg.yml,,,1,1,0,1,1,1,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | Stat directory installation package,,,,,,,,,,,,,0,0
+,,install | Check directory installation package,,,,,,,,,,,,,0,0
+,,install| Creates default directory,,,,,,,,,,,,,0,0
+,,install | Stat extracted packages,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | Copy installation package to node,,,,,,,,,,,,,0,0
+,,install | Set installation package path,,,,,,,,,,,,,0,0
+,,install | gpfs base path,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,install | Find gpfs.smb (gpfs.smb) package,,,,,,,,,,,,,0,0
+,,install | Check valid GPFS (gpfs.smb) package,,,,,,,,,,,,,0,0
+,,install | Add GPFS package to list,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,install | Find gpfs.nfs-ganesha (gpfs.nfs-ganesha) package,,,,,,,,,,,,,0,0
+,,install | Check valid GPFS (gpfs.nfs-ganesha) package,,,,,,,,,,,,,0,0
+,,install | Add GPFS package to list,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,install | Find gpfs.nfs-ganesha (gpfs.nfs-ganesha) package,,,,,,,,,,,,,0,0
+,,install | Check valid GPFS (gpfs.nfs-ganesha) package,,,,,,,,,,,,,0,0
+,,install | Add GPFS package to list,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | Find gpfs.nfs-ganesha-utils (gpfs.nfs-ganesha) package,,,,,,,,,,,,,0,0
+,,install | Check valid GPFS (gpfs.nfs-ganesha) package,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | Find gpfs.nfs-ganesha-gpfs (gpfs.nfs-ganesha) package,,,,,,,,,,,,,0,0
+,,install | Check valid GPFS (gpfs.nfs-ganesha) package,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | Find gpfs.nfs-ganesha-doc (gpfs.nfs-ganesha-doc) package,,,,,,,,,,,,,0,0
+,,install | Check valid GPFS (gpfs.nfs-ganesha-doc) package,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | Find gpfs.python-nfs-ganesha (gpfs.python-nfs-ganesha) package,,,,,,,,,,,,,0,0
+,,install | Check valid GPFS (gpfs.python-nfs-ganesha) package,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | Find gpfs.pm-ganesha (gpfs.pm-ganesha) package,,,,,,,,,,,,,0,0
+,,install | Check valid GPFS (gpfs.pm-ganesha) package,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | Find gpfs.nfs-ganesha (gpfs.nfs-ganesha) package,,,,,,,,,,,,,0,0
+,,install | Check valid GPFS (gpfs.nfs-ganesha-debuginfo) package,,,,,,,,,,,,,0,0
+,,install | Add GPFS package to list,,,,,,,,,,,,,0,0
+,,install | Add GPFS package to list,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | initialize,,,,,,,,,,,,,0,0
+,,install | Add GPFS package to list,,,,,,,,,,,,,0,0
+,,install | remove debuginfo from packages,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-ansible\tripleo_ansible\roles\tripleo_upgrade_hiera\tasks\set.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,ensure tripleo-upgrade hiera file exists,,,,,,,,,,,,,0,0
+,,set/update the tripleo-upgrade key/value,,,,,,,,,,,,,0,0
+,,write the updated tripleo-upgrade hiera data,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ansible\ansible-examples\lamp_haproxy\aws\roles\web\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Copy the code from repository,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\openshift\import-image\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Run `oc import-image`,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Graylog2\graylog-ansible-role\tasks\mongodb-Debian.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,APT Key should be accepted for the MongoDB repo (Ubuntu),,,,,,,,,,,,,0,0
+,,Repositories should be updated (Ubuntu),,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,APT Key should be accepted for the MongoDB repo (Debian),,,,,,,,,,,,,0,0
+,,Repositories should be updated (Debian),,,,,,,,,,,,,0,0
+,,MongoDB should be installed,,,,,,,,,,,,,0,0
+,,MongoDB service file should be installed,,,,,,,,,,,,,0,0
+,,MongoDB should be configured,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Wait for MongoDB to startup,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM-Security\isam-ansible-roles\add_cluster_node\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Check if Signature File Exists - {{ add_cluster_node_signature_file }},,,,,,,,,,,,,0,0
+,,Add {{ inventory_hostname }} to cluster,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-openstack\ansible-nfv\roles\images\performance\tasks\fetch_image.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,Fetch image from URL,,,,,,,,,,,,,0,0
+,,Set path of fetched image,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\devopsschool-training-notes\Ansible-astrazeneca-June-2020\james\rolesprj\project\tasks\main.yaml,,,1,0,0,0,0,0,0,0,0,0,,,,
+,,Ansible register variable basic example,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Install the httpd apps,,,,,,,,,,,,,0,0
+,,Install the httpd apps,,,,,,,,,,,,,0,0
+,,start the httpd service,,,,,,,,,,,,,0,0
+,,Template a file to httpd.conf.j2,,,,,,,,,,,,,0,0
+,,start the httpd service,,,,,,,,,,,,,0,0
+,,create a empty fle,,,,,,,,,,,,,0,0
+,,Template a file to index.html.j2,,,,,,,,,,,,,0,0
+,,shut down Debian flavored systems,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Installing .....,,,,,,,,,,,,,0,0
+,,"Ensure group ""deloitte"" exists",,,,,,,,,,,,,0,0
+,,Adding user and adding to Group Deploy,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\roles\mysql\tasks\remove_mysql_experimental.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Stop mysql service,,,,,,,,,,,,,0,0
+,,Remove experimental apt repository,,,,,,,,,,,,,0,0
+,,Remove experimental version of mysql,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\spantaleev\matrix-docker-ansible-deploy\roles\custom\matrix-synapse\tasks\init.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Ensure workers are injected into various places,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,Fail if matrix-nginx-proxy role already executed,,,,,,,,,,,,,0,0
+,,Generate synapse metrics proxying configuration for matrix-nginx-proxy (matrix.DOMAIN/metrics/synapse/main-process),,,,,,,,,,,,,0,1
+,,Register synapse metrics proxying configuration with matrix-nginx-proxy (matrix.DOMAIN/metrics/synapse/main-process),,,,,,,,,,,,,0,1
+,,Generate synapse worker metrics proxying configuration for matrix-nginx-proxy (matrix.DOMAIN/metrics/synapse/worker),,,,,,,,,,,,,0,1
+,,Register synapse worker metrics proxying configuration with matrix-nginx-proxy (matrix.DOMAIN/metrics/synapse/worker),,,,,,,,,,,,,0,1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CentOS-PaaS-SIG\linchpin\linchpin\provision\roles\azure\tasks\provision_res_defs.yml,,,0,0,0,0,1,0,1,0,0,1,,,,
+,,Set azure_res_type value,,,,,,,,,,,,,0,0
+,,Add resource type to async_types,,,,,,,,,,,,,0,0
+,,declaring async vars,,,,,,,,,,,,,0,0
+,,Get the resource name,,,,,,,,,,,,,0,0
+,,Create name using uhash value,,,,,,,,,,,,,0,0
+,,provision resource type : {{ res_def['role'] }},,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\ansible-nginx\tasks\nginx_servers.yml,,,0,1,0,1,1,0,0,0,0,0,,,,
+,,Create global webroot directories if allowed,,,,,,,,,,,,,1,0
+,,Create default welcome page if enabled,,,,,,,,,,,,,1,0
+,,Remove nginx server configuration if requested,,,,,,,,,,,,,0,0
+,,Get last used HTTP default_server for default_server roulette,,,,,,,,,,,,,0,0
+,,Get last used HTTPS default_server for default_server roulette,,,,,,,,,,,,,0,0
+,,Get HTTP server from nginx defaults for default_server roulette,,,,,,,,,,,,,0,0
+,,Get HTTPS server from nginx defaults for default_server roulette,,,,,,,,,,,,,0,0
+,,Get first server that listens on http port for default_server roulette,,,,,,,,,,,,,0,0
+,,Get first server that listens on https port for default_server roulette,,,,,,,,,,,,,0,0
+,,Spin the HTTP default_server roulette!,,,,,,,,,,,,,0,0
+,,Spin the HTTPS default_server roulette!,,,,,,,,,,,,,0,0
+,,Generate nginx server configuration,,,,,,,,,,,,,1,0
+,,Disable nginx server configuration,,,,,,,,,,,,,1,0
+,,Test if Ansible is running in check mode,,,,,,,,,,,,,0,0
+,,Save fact if Ansible is running in check mode in variable,,,,,,,,,,,,,0,0
+,,Enable nginx server configuration,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\plus-plus-service\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensure mod_wsgi is not installed since we're using python3,,,,,,,,,,,,,0,0
+,,Ensure there are no left over of mod_wsgi,,,,,,,,,,,,,0,0
+,,install needed packages,,,,,,,,,,,,,0,0
+,,create all the directory for the configuration file,,,,,,,,,,,,,0,0
+,,Install the config files,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CenterForOpenScience\cos-ansible-base\roles\hostname\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,ansible_hostname,,,,,,,,,,,,,0,0
+,,hostname_name,,,,,,,,,,,,,0,0
+,,Update the hostname,,,,,,,,,,,,,0,0
+,,Update /etc/hosts,,,,,,,,,,,,,0,0
+,,Run hostname cmd,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openmrs\openmrs-contrib-itsmresources\ansible\custom_roles\mysql\tasks\replication.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensure replication user exists on master.,,,,,,,,,,,,,0,0
+,,Check slave replication status.,,,,,,,,,,,,,0,0
+,,Check master replication status.,,,,,,,,,,,,,0,0
+,,Configure replication on the slave.,,,,,,,,,,,,,0,0
+,,Start replication.,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\oVirt\ovirt-ansible-collection\roles\hosted_engine_setup\tasks\fetch_engine_logs.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Set destination directory path,,,,,,,,,,,,,0,0
+,,Create destination directory,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Give the vm time to flush dirty buffers,,,,,,,,,,,,,0,0
+,,Copy engine logs,,,,,,,,,,,,,0,0
+,,Change ownership of copied engine logs,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\hortonworks\ansible-hortonworks\playbooks\check_dynamic_blueprint.yml,,,0,0,0,1,0,0,0,0,0,0,,,,
+,Check if the dynamic blueprint requested configuration is correct,,,,,,,,,,,,0,0,,
+,,Fail if there is no Ansible inventory group matching the blueprint's host_groups,,,,,,,,,,,,,0,1
+,,Fail if ZooKeeper is not present,,,,,,,,,,,,,0,0
+,,Fail if Ranger prerequisites are not met,,,,,,,,,,,,,0,0
+,,Fail if Ranger KMS prerequisites are not met,,,,,,,,,,,,,0,0
+,,Fail if Atlas prerequisites are not met,,,,,,,,,,,,,0,0
+,,Fail if Streamline prerequisites are not met,,,,,,,,,,,,,0,0
+,,Fail if Registry prerequisites are not met,,,,,,,,,,,,,0,0
+,,Fail if Druid HA prerequisites are not met,,,,,,,,,,,,,0,0
+,,Fail if Amazon Linux prerequisites are not met,,,,,,,,,,,,,0,0
+,,Fail if the selected components should not be part of an HDP 3 blueprint,,,,,,,,,,,,,0,0
+,,Fail if the selected components should not be part of an HDP 2 blueprint,,,,,,,,,,,,,0,0
+,,Fail if the required HDFS components are not part of the blueprint,,,,,,,,,,,,,0,0
+,,Fail if HA NameNode prerequisites are not met (3 JournalNodes),,,,,,,,,,,,,0,0
+,,Fail if HA NameNode prerequisites are not met (ZKFC),,,,,,,,,,,,,0,0
+,,Fail if SECONDARY_NAMENODE is present with multiple NAMENODE,,,,,,,,,,,,,0,0
+,,Fail if the required Yarn components are not part of the blueprint,,,,,,,,,,,,,0,0
+,,Fail if the required Hive components are not part of the blueprint,,,,,,,,,,,,,0,0
+,,Fail if the required Druid components are not part of the blueprint,,,,,,,,,,,,,0,0
+,,Fail if the required Accumulo components are not part of the blueprint,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\theforeman\forklift\playbooks\foreman.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,unknown,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ImNtReal\ansible-role-epic_odb\tasks\firewall_rules.yml,,,0,0,0,0,0,0,1,0,0,1,,,,
+,,set epic_firewall_short,,,,,,,,,,,,,0,0
+,,set epic_firewall_description,,,,,,,,,,,,,0,0
+,,set epic_firewall_ports,,,,,,,,,,,,,0,0
+,,clear ufw ports line,,,,,,,,,,,,,0,0
+,,set ufw ports line,,,,,,,,,,,,,0,0
+,,add protocol to ufw ports line,,,,,,,,,,,,,0,0
+,,copy {{ epic_firewall_short }} firewall rule,,,,,,,,,,,,,0,0
+,,copy {{ epic_firewall_short }} firewall rule,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ansible-community\ansible-consul\tasks\snapshot.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Create snapshot systemd script,,,,,,,,,,,,,0,0
+,,Create snapshot agent config,,,,,,,,,,,,,0,0
+,,Reload systemd,,,,,,,,,,,,,0,0
+,,Create snaps storage folder,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\roles\munin_node\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Install OS packages,,,,,,,,,,,,,0,0
+,,Link munin-node iostat,,,,,,,,,,,,,0,0
+,,Link munin-node iostat-ios,,,,,,,,,,,,,0,0
+,,Copy munin iostat config,,,,,,,,,,,,,0,0
+,,Add source cidr,,,,,,,,,,,,,0,0
+,,Restart munin-mode,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-ansible-os_octavia\tasks\octavia_install.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Record the installation method,,,,,,,,,,,,,0,0
+,,Refresh local facts to ensure the octavia section is present,,,,,,,,,,,,,0,0
+,,Install distro packages,,,,,,,,,,,,,0,0
+,,Install the python venv,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\debops\ansible\roles\dovecot\tasks\main_env.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,Remove ferm 'debops-legacy-input-rules' file,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\ora_grading.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,Deploy the ORA Grading MFE Frontend,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\fedora-web\codecs\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,1,,,,
+,,Copy in the sync-labs cronjob,,,,,,,,,,,,,0,0
+,,Copy some config files for {{website}},,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\elasticluster\elasticluster\elasticluster\share\playbooks\roles\easybuild\tasks\deps-RedHat.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,Install required dependencies of EasyBuild (RHEL-compatible),,,,,,,,,,,,,1,0
+,,Install optional dependencies of EasyBuild (RHEL-compatible),,,,,,,,,,,,,0,0
+,,"Install ""filtered dependency"" software (RHEL-compatible)",,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\liip\drifter\provisioning\roles\gitlabci\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,install gitlab-ci.yml,,,,,,,,,,,,,0,0
+,,create ci scripts directory,,,,,,,,,,,,,0,0
+,,install run_tests.sh,,,,,,,,,,,,,0,0
+,,install gitlabci.sh,,,,,,,,,,,,,0,0
+,,install provisionbuild.dat,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-ansible-os_ceilometer\tasks\ceilometer_install.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Record the installation method,,,,,,,,,,,,,0,0
+,,Refresh local facts to ensure the ceilometer section is present,,,,,,,,,,,,,0,0
+,,Install distro packages,,,,,,,,,,,,,0,0
+,,Retrieve the constraints URL,,,,,,,,,,,,,0,0
+,,Install the python venv,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-ansible-os_tempest\tasks\main.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,Gather variables for each operating system,,,,,,,,,,,,,1,0
+,,Set tempest service specific variables,,,,,,,,,,,,,0,0
+,,Gather variables for source installs,,,,,,,,,,,,,0,0
+,,Gather variables for distro installs,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Flush handlers,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\kolla-ansible\ansible\roles\barbican\tasks\clone.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Cloning barbican source repository for development,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\spantaleev\matrix-docker-ansible-deploy\roles\custom\matrix-bridge-mautrix-slack\tasks\setup_uninstall.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,Check existence of matrix-mautrix-slack service,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Ensure matrix-mautrix-slack is stopped,,,,,,,,,,,,,0,0
+,,Ensure matrix-mautrix-slack.service doesn't exist,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\girder\ansible-role-girder\tasks\nodejs.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Add NodeJS PPA key,,,,,,,,,,,,,0,0
+,,Add NodeJS PPA,,,,,,,,,,,,,0,0
+,,Install NodeJS package,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CentOS-PaaS-SIG\linchpin\linchpin\provision\roles\openstack\tasks\provision_os_router.yml,,,0,0,0,0,1,0,1,0,0,0,,,,
+,,deprovision os_router,,,,,,,,,,,,,1,0
+,,provision os_router,,,,,,,,,,,,,1,0
+,,Append outputitem to topology_outputs,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\deploy\tasks\tasks\raw.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,Tasks / Raw,,,,,,,,,,,,,0,0
+,,Tasks / Raw > {{ item.options | quote }},,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM-Security\isam-ansible-roles\create_reverseproxy\tasks\create_instance.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Get the activations on the appliance,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Configure Reverse Proxy,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\apt\tasks\sources_list.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Sources List > Template,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\QingCloudAppcenter\ansible-roles\haproxy\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,install ppa tools,,,,,,,,,,,,,0,0
+,,install ppa,,,,,,,,,,,,,0,0
+,,install HAProxy,,,,,,,,,,,,,0,0
+,,add to svc group,,,,,,,,,,,,,0,0
+,,copy conf files,,,,,,,,,,,,,0,0
+,,link files,,,,,,,,,,,,,0,0
+,,update dir owner,,,,,,,,,,,,,0,0
+,,disable haproxy auto start,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\supervisor\tasks\services.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Services > Services,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\2015-Middleware-Keynote\demo-ansible\playbooks\group_setup.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,Setup groups,,,,,,,,,,,,0,0,,
+,,wait for ssh,,,,,,,,,,,,,0,0
+,,Add masters to requisite groups,,,,,,,,,,,,,0,0
+,,Create group for first master,,,,,,,,,,,,,0,0
+,,Add nodes to requisite groups,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\arillso\ansible.logrotate\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,add OS specific variables,,,,,,,,,,,,,1,0
+,,install logrotate packages,,,,,,,,,,,,,0,0
+,,create logrotate configuration file,,,,,,,,,,,,,0,0
+,,create logrotate application configuration files,,,,,,,,,,,,,0,0
+,,symlink for hourly rotation,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\roots\trellis\roles\xdebug\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Include php{{ php_version }} related vars,,,,,,,,,,,,,0,0
+,,Install Xdebug,,,,,,,,,,,,,0,0
+,,Template the Xdebug configuration file,,,,,,,,,,,,,0,0
+,,Ensure 20-xdebug.ini is present,,,,,,,,,,,,,0,0
+,,Disable Xdebug CLI,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\ansible-collections-openstack\ci\roles\security_group\tasks\rules.yml,,,1,1,0,1,1,1,0,0,0,0,,,,
+,,Create security group,,,,,,,,,,,,,0,0
+,,Assert return values of security_group module,,,,,,,,,,,,,0,0
+,,Create security group again,,,,,,,,,,,,,0,0
+,,Assert return values of security_group module,,,,,,,,,,,,,0,0
+,,Fetch security group rules,,,,,,,,,,,,,0,0
+,,Assert return values of security_group_rule_info module,,,,,,,,,,,,,0,0
+,,Delete security group,,,,,,,,,,,,,0,0
+,,Assert return values of security_group module,,,,,,,,,,,,,0,0
+,,Delete security group again,,,,,,,,,,,,,0,0
+,,Assert return values of security_group module,,,,,,,,,,,,,0,0
+,,Create security group without security group rules,,,,,,,,,,,,,0,0
+,,Assert return values of security_group module,,,,,,,,,,,,,0,0
+,,Create security group without security group rules again,,,,,,,,,,,,,0,0
+,,Assert return values of security_group module,,,,,,,,,,,,,0,0
+,,Fetch security group rules,,,,,,,,,,,,,0,0
+,,Assert return values of security_group_rule_info module,,,,,,,,,,,,,0,0
+,,Delete security group without security group rules,,,,,,,,,,,,,0,0
+,,Create security group including security group rules,,,,,,,,,,,,,0,0
+,,Assert return values of security_group module,,,,,,,,,,,,,0,0
+,,Create security group including security group rules again,,,,,,,,,,,,,0,0
+,,Assert return values of security_group module,,,,,,,,,,,,,0,0
+,,Fetch security group rules,,,,,,,,,,,,,0,0
+,,Assert return values of security_group_rule_info module,,,,,,,,,,,,,0,0
+,,"Update security group with new set of security group rules, dropping egress rules for IPv4 and IPv6",,,,,,,,,,,,,1,1
+,,Fetch security group rules,,,,,,,,,,,,,0,0
+,,Assert return values of security_group_rule_info module,,,,,,,,,,,,,0,0
+,,Remove all security group rules from security group,,,,,,,,,,,,,0,0
+,,Fetch security group rules,,,,,,,,,,,,,0,0
+,,Assert return values of security_group_rule_info module,,,,,,,,,,,,,0,0
+,,Delete security group,,,,,,,,,,,,,0,0
+,,Create security group,,,,,,,,,,,,,0,0
+,,Assert return values of security_group_rule_info module,,,,,,,,,,,,,0,0
+,,Define set of additional security group rules,,,,,,,,,,,,,0,0
+,,Prepare existing security group rules for appending,,,,,,,,,,,,,0,0
+,,Flatten existing security group rules,,,,,,,,,,,,,0,0
+,,Append security group rules to security group,,,,,,,,,,,,,0,0
+,,Assert return values of security_group module,,,,,,,,,,,,,0,0
+,,Append security group rules to security group again,,,,,,,,,,,,,0,0
+,,Assert return values of security_group module,,,,,,,,,,,,,0,0
+,,Fetch security group rules,,,,,,,,,,,,,0,0
+,,Assert return values of security_group_rule_info module,,,,,,,,,,,,,0,0
+,,Delete security group,,,,,,,,,,,,,0,0
+,,Create security group without security group rules,,,,,,,,,,,,,0,0
+,,Fetch security group rules,,,,,,,,,,,,,0,0
+,,Assert return values of security_group_rule_info module,,,,,,,,,,,,,0,0
+,,Define dense representation of security group rules with multiple remote ip prefixes per rule,,,,,,,,,,,,,1,1
+,,Convert dense representation into default representation of security group rules,,,,,,,,,,,,,0,1
+,,Flatten security group rules,,,,,,,,,,,,,0,0
+,,Update security group with set of security group rules,,,,,,,,,,,,,0,0
+,,Assert return values of security_group module,,,,,,,,,,,,,0,0
+,,Fetch security group rules,,,,,,,,,,,,,0,0
+,,Assert return values of security_group_rule_info module,,,,,,,,,,,,,0,0
+,,Delete security group,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ansible-ThoTeam\nexus3-oss\tasks\nexus-restore.yml,,,1,0,0,0,0,0,0,0,0,0,,,,
+,,Make sure nexus is stopped,,,,,,,,,,,,,0,0
+,,Run all notified handlers now,,,,,,,,,,,,,0,0
+,,Run restoration script,,,,,,,,,,,,,0,0
+,,Run all notified handlers now,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CenterForOpenScience\cos-ansible-base\roles\docker-sentry\tasks\server.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensure docker sentry server directories exist,,,,,,,,,,,,,0,0
+,,Copy docker sentry sentry.conf.py file,,,,,,,,,,,,,0,0
+,,Restart docker sentry server container,,,,,,,,,,,,,0,0
+,,Run docker sentry server container,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\AtlasOfLivingAustralia\ala-install\ansible\roles\postgresql\tasks\barman.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,setup apt,,,,,,,,,,,,,0,0
+,,Barman | Install Barman,,,,,,,,,,,,,0,0
+,,Barman | create /etc/barman.d,,,,,,,,,,,,,0,0
+,,Barman | deploy global configuration,,,,,,,,,,,,,0,0
+,,remove default cron to add log support,,,,,,,,,,,,,0,0
+,,replace default cron to add log support,,,,,,,,,,,,,0,0
+,,Barman | Do a daily backup of all servers,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\deploy\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Setup,,,,,,,,,,,,,0,0
+,,Strategy,,,,,,,,,,,,,0,0
+,,Unfinished,,,,,,,,,,,,,0,0
+,,Shared,,,,,,,,,,,,,0,0
+,,Copied,,,,,,,,,,,,,0,0
+,,Writable - Dirs,,,,,,,,,,,,,0,0
+,,Tasks,,,,,,,,,,,,,0,0
+,,Removed,,,,,,,,,,,,,0,0
+,,Finalize,,,,,,,,,,,,,0,0
+,,Clean,,,,,,,,,,,,,0,0
+,,Post tasks,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\wunderio\WunderMachina\playbook\roles\nfs_server\tasks\fdisk.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Check if partition named '/nfs-files' exists,,,,,,,,,,,,,0,0
+,,Create partition to drive,,,,,,,,,,,,,0,0
+,,Format the partition in the secondary drive,,,,,,,,,,,,,0,0
+,,Create temp mount point to copy files from current /nfs-files,,,,,,,,,,,,,0,0
+,,Copy files from old /nfs-files,,,,,,,,,,,,,0,0
+,,Unmount temp mount and delete current /var/log,,,,,,,,,,,,,0,0
+,,Create /nfs-files mount point and mount the partition,,,,,,,,,,,,,0,0
+,,Get UUID of disk,,,,,,,,,,,,,0,0
+,,Add automount for the drive,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\bluebanquise\bluebanquise\collections\monitoring\roles\prometheus\tasks\server_ipmi_exporter.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,group <|> Add ipmi_exporter group,,,,,,,,,,,,,0,0
+,,user <|> Add ipmi_exporter user,,,,,,,,,,,,,0,0
+,,Package <|> Install ipmi_exporter and freeipmi packages,,,,,,,,,,,,,0,0
+,,template <|> Generate ipmi_exporter service file,,,,,,,,,,,,,0,0
+,,file <|> Create ipmi_exporter directories structure,,,,,,,,,,,,,0,0
+,,Template <|> Generate /etc/ipmi_exporter/ipmi_config.yml,,,,,,,,,,,,,0,0
+,,meta <|> Run handler tasks,,,,,,,,,,,,,0,0
+,,service <|> Manage ipmi_exporter service state,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ArkCase\arkcase-ce\vagrant\provisioning\roles\pentaho-setup\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensure group pentaho exists,,,,,,,,,,,,,0,0
+,,pentaho user,,,,,,,,,,,,,0,0
+,,Pentaho folders,,,,,,,,,,,,,0,0
+,,enable logrotate for pentaho log folder if necessary,,,,,,,,,,,,,0,0
+,,create Pentaho database schemas,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ArdanaCLM\cobbler-ansible\roles\cobbler\tasks\target-all-nodes.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,cobbler | target-all-nodes | Compute generic target list,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\starlingx\ansible-playbooks\playbookconfig\src\playbooks\roles\migrate-platform-certificates-to-certmanager\migrate-certificates\tasks\get-certificates-summary.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Checking certificate in secret {{item.secret}},,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\jpnewman\ansible-role-java\tasks\oracle_archive_install.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Create Oracle Java Install Directory,,,,,,,,,,,,,0,0
+,,Extract Oracle Java Tarball,,,,,,,,,,,,,0,0
+,,Install Oracle Java,,,,,,,,,,,,,0,0
+,,Link Oracle Java,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,Install Unzip,,,,,,,,,,,,,0,0
+,,Extract Oracle Java JCE Zip File,,,,,,,,,,,,,0,0
+,,Install Oracle Java JCE,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\roles\testcourses\tasks\import_course.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,check out testcourses,,,,,,,,,,,,,0,0
+,,import testcourse,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\kolla-ansible\ansible\roles\prune-images\tasks\prune_images.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Pruning Kolla images,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\starlingx\ansible-playbooks\playbookconfig\src\playbooks\roles\rehome-subcloud\update-keystone-data\tasks\migrate_keystone_ids.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Update admin user id and project id in hieradata static.yaml,,,,,,,,,,,,,1,0
+,,Migrate keystone user IDs,,,,,,,,,,,,,0,0
+,,Migrate keystone project IDs,,,,,,,,,,,,,0,0
+,,Flush memcached,,,,,,,,,,,,,0,0
+,,Restart keystone service,,,,,,,,,,,,,0,0
+,,Restart affected services using sm,,,,,,,,,,,,,0,0
+,,Restart affected services using pmon,,,,,,,,,,,,,0,0
+,,Wait until services are restarted after changing keystone IDs,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\kolla-ansible\ansible\roles\senlin\tasks\clone.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Cloning senlin source repository for development,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\BCDevOps\platform-services\tools\bots\ansible-webhook\scripts\tasks\pr_merge_and_close.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Merge Pull Request,,,,,,,,,,,,,0,0
+,,Add comment to PR if merge is not successful,,,,,,,,,,,,,0,0
+,,Close Pull Request,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\prometheus\tasks\config.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Config > Directory,,,,,,,,,,,,,0,0
+,,Config > Template,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\devopsschool-training-notes\Ansible-astrazeneca-June-2020\RajSelvaraj\rolesprj\projectnew\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Install the httpd server,,,,,,,,,,,,,0,0
+,,start the httpd service,,,,,,,,,,,,,0,0
+,,Template httpd.conf.j2,,,,,,,,,,,,,0,0
+,,Template index.html.j2,,,,,,,,,,,,,0,0
+,,This command will change the working directory to somedir/.,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-ansible-os_trove\tasks\trove_db_sync.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Perform a trove DB sync,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\plone\ansible.plone_server\tasks\Debian.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,Update packages via apt,,,,,,,,,,,,,0,0
+,,Ensure required python2 packages,,,,,,,,,,,,,0,0
+,,Ensure required python3 packages,,,,,,,,,,,,,0,0
+,,Ensure required packages,,,,,,,,,,,,,0,0
+,,Set virtualenv path,,,,,,,,,,,,,0,0
+,,Ensure supervisor is started,,,,,,,,,,,,,0,0
+,,Set supervisor service name,,,,,,,,,,,,,0,0
+,,Set supervisor to start on boot in Xenial,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\trailofbits\algo\roles\dns\tasks\freebsd.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Install dnscrypt-proxy,,,,,,,,,,,,,0,0
+,,Enable mac_portacl,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ansible\ansible-zuul-jobs\playbooks\ansible-security-trendmicro-deepsec-appliance\roles\tm-deepsec-aws-setup\tasks\main.yml,,,0,1,0,1,0,0,0,0,0,0,,,,
+,,"Ensure bash, OpenSSl, and libssl are the latest versions",,,,,,,,,,,,,0,0
+,,Install psycopg2 python package for postgres,,,,,,,,,,,,,0,0
+,,Change psycopg2 dir permission to 0755,,,,,,,,,,,,,0,0
+,,Remove the postgresql package,,,,,,,,,,,,,0,0
+,,Remove pgsql directory,,,,,,,,,,,,,0,0
+,,Install postgres 11 libs rpm from a remote file,,,,,,,,,,,,,0,0
+,,Create postgres data cluster,,,,,,,,,,,,,0,0
+,,Start postgres service,,,,,,,,,,,,,0,0
+,,create postgres DB,,,,,,,,,,,,,0,0
+,,create postgres User,,,,,,,,,,,,,0,0
+,,Ensure local security method is changed to md5,,,,,,,,,,,,,0,0
+,,Ensure local security method is changed to md5,,,,,,,,,,,,,0,0
+,,"add new configuration to ""pg_hba.conf""",,,,,,,,,,,,,0,0
+,,Restart postgres service,,,,,,,,,,,,,0,0
+,,add silent properties config to dsm directory,,,,,,,,,,,,,0,0
+,,Run the silent properties file via TM AWS manager script,,,,,,,,,,,,,0,0
+,,Ensure the PostgreSQL and TM agent and TM service is running,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,Get a Session ID,,,,,,,,,,,,,0,0
+,,Get a request ID,,,,,,,,,,,,,0,0
+,,Create and get the API KEY,,,,,,,,,,,,,0,0
+,,Create temp file with API Key over appliance,,,,,,,,,,,,,0,0
+,,Collect the deepsec api key,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\ibm-spectrum-scale-install-infra\roles\scale_fileauditlogging\node\tasks\install_local_pkg.yml,,,1,0,0,1,1,1,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,1,0
+,,install | Stat local installation package,,,,,,,,,,,,,0,0
+,,install | Check local installation package,,,,,,,,,,,,,0,0
+,,install | Stat checksum file,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,install | Read checksum from file,,,,,,,,,,,,,0,0
+,,install | Compare checksums,,,,,,,,,,,,,0,0
+,,install | Stat extracted packages,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,install | Stat temporary directory,,,,,,,,,,,,,0,0
+,,install | Check temporary directory,,,,,,,,,,,,,0,0
+,,install | Copy installation package to node,,,,,,,,,,,,,0,0
+,,install | Extract installation package,,,,,,,,,,,,,0,0
+,,install | Stat extracted packages,,,,,,,,,,,,,0,0
+,,install | Check extracted packages,,,,,,,,,,,,,0,0
+,,install | Delete installation package from node,,,,,,,,,,,,,0,0
+,,install | file audit logging path,,,,,,,,,,,,,0,0
+,,install | file audit logging path,,,,,,,,,,,,,0,0
+,,install | file audit logging path,,,,,,,,,,,,,0,0
+,,install | file audit logging path,,,,,,,,,,,,,0,0
+,,install | file audit logging path,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,install | Find gpfs.librdkafka (gpfs.librdkafka) package,,,,,,,,,,,,,0,0
+,,install | Check valid GPFS (gpfs.librdkafka) package,,,,,,,,,,,,,0,0
+,,install | Add GPFS file audit logging packages to list,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\contiv\ansible\roles\bind\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,install bind (redhat),,,,,,,,,,,,,0,0
+,,install bind (debian),,,,,,,,,,,,,0,0
+,,start/enable bind (redhat),,,,,,,,,,,,,0,0
+,,start/enable bind (debian),,,,,,,,,,,,,0,0
+,,rewrite resolv.conf,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\contiv\ansible\roles\docker\tasks\cleanup.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,remove all containers,,,,,,,,,,,,,0,0
+,,remove all images,,,,,,,,,,,,,0,0
+,,stop docker,,,,,,,,,,,,,0,0
+,,stop docker tcp socket,,,,,,,,,,,,,0,0
+,,cleanup iptables for docker,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\kolla-ansible\ansible\roles\influxdb\tasks\loadbalancer.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,Configure loadbalancer for {{ project_name }},,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CentOS-PaaS-SIG\linchpin\linchpin\provision\roles\azure\tasks\teardownVM.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Teardown Azure VM,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ReinerNippes\nextcloud\roles\prep_letsencrypt\tasks\Amazon.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,remove python-requests,,,,,,,,,,,,,0,0
+,,install needed pip packages,,,,,,,,,,,,,0,0
+,,letsencrypt renewal cronjob,,,,,,,,,,,,,0,0
+,,re-install cloud-init,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CentOS-PaaS-SIG\linchpin\linchpin\provision\roles\aws\tasks\provision_aws_ec2.yml,,,0,0,0,0,1,1,0,0,0,0,,,,
+,,Set default res_grp_vars when not defined,,,,,,,,,,,,,0,0
+,,Update Instance Tags,,,,,,,,,,,,,0,0
+,,Provisioning AWS_EC2 Resource when not async,,,,,,,,,,,,,1,0
+,,Append outputitem to topology_outputs,,,,,,,,,,,,,0,0
+,,Async:: Provisioning AWS_EC2 Resource,,,,,,,,,,,,,1,0
+,,Async:: Append outputitem to topology_outputs,,,,,,,,,,,,,0,0
+,,Add type to resource,,,,,,,,,,,,,0,0
+,,Async:: Add type to resource,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ArdanaCLM\cobbler-ansible\roles\cobbler\tasks\get-rhel-loader.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,cobbler | get-rhel-loader | Set vars dependent on target OS,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | Install rpm2cpio for debian host,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | Mount iso on deployer,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | Create tmp dir on deployer,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | Define deployer tmp dir fact,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | Extract shim/grub on deployer,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | Unmount iso on deployer,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | Execute rpm2cpio,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | Move loader into cobbler,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | Move shim into cobbler,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | root owns the loader,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | root owns the shim,,,,,,,,,,,,,0,0
+,,cobbler | get-rhel-loader | Cleanup deployer tmp dir,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\kolla-ansible\ansible\roles\prometheus\tasks\upgrade.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Flush handlers,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\nexcess\ansible-playbook-cloudhost\playbooks\tasks\install-app-magento-2.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Check if Magento2 already installed,,,,,,,,,,,,,0,0
+,,Install Magento2,,,,,,,,,,,,,0,0
+,,Set up Magento2 log rotation,,,,,,,,,,,,,0,0
+,,Set Magento2 Cache Storage to Redis,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Cloudbox\Cloudbox\roles\kernel\tasks\main.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,Set default 'reboot_is_necessary' variable,,,,,,,,,,,,,0,0
+,,Preinstall task,,,,,,,,,,,,,0,0
+,,Hetzner Tasks,,,,,,,,,,,,,0,0
+,,Cron Tasks,,,,,,,,,,,,,0,0
+,,Mainline Kernel Script Tasks,,,,,,,,,,,,,0,0
+,,Header Tasks,,,,,,,,,,,,,0,0
+,,Restart Tasks,,,,,,,,,,,,,0,0
+,,Checks Tasks,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\roles\grafana\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,ensure correct OS,,,,,,,,,,,,,0,0
+,,install packages.grafana.com GPG key,,,,,,,,,,,,,0,0
+,,install packages.grafana.com PPA,,,,,,,,,,,,,0,0
+,,install grafana,,,,,,,,,,,,,0,0
+,,configure grafana,,,,,,,,,,,,,0,0
+,,enable grafana,,,,,,,,,,,,,0,0
+,,stop grafana,,,,,,,,,,,,,0,0
+,,restart grafana,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\vmware\ansible-module-vcloud-director\roles\org\tasks\main.yml,,,1,0,0,1,0,0,0,0,0,0,,,,
+,,create org,,,,,,,,,,,,,0,0
+,,create org output,,,,,,,,,,,,,0,0
+,,update org,,,,,,,,,,,,,0,0
+,,update org output,,,,,,,,,,,,,0,0
+,,read org,,,,,,,,,,,,,0,0
+,,read org output,,,,,,,,,,,,,0,0
+,,add rights to org,,,,,,,,,,,,,0,0
+,,add rights output,,,,,,,,,,,,,0,0
+,,list rights of org,,,,,,,,,,,,,0,0
+,,add rights output,,,,,,,,,,,,,0,0
+,,list roles,,,,,,,,,,,,,0,0
+,,list roles output,,,,,,,,,,,,,0,0
+,,list vdcs,,,,,,,,,,,,,0,0
+,,list vdcs output,,,,,,,,,,,,,0,0
+,,delete org,,,,,,,,,,,,,0,0
+,,delete org output,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\arillso\ansible.users\tasks\main.yml,,,0,0,0,0,1,1,0,0,0,0,,,,
+,,add OS specific variables,,,,,,,,,,,,,1,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,add host users,,,,,,,,,,,,,0,0
+,,add group users,,,,,,,,,,,,,0,0
+,,include distribution tasks,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CentOS-PaaS-SIG\linchpin\linchpin\provision\roles\azure\tasks\provision_resource_group.yml,,,0,0,0,0,1,1,1,0,0,0,,,,
+,,Unset the authvar from previous run,,,,,,,,,,,,,0,0
+,,Set cred profile,,,,,,,,,,,,,0,0
+,,Get creds from auth driver,,,,,,,,,,,,,0,0
+,,Set auth_var,,,,,,,,,,,,,0,0
+,,provisioning resource definitions of current group,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openmrs\openmrs-contrib-itsmresources\ansible\custom_roles\mysql\tasks\setup-Debian.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Check if MySQL is already installed.,,,,,,,,,,,,,0,0
+,,Update apt cache if MySQL is not yet installed.,,,,,,,,,,,,,0,0
+,,Determine required MySQL Python libraries.,,,,,,,,,,,,,0,0
+,,Ensure MySQL Python libraries are installed.,,,,,,,,,,,,,0,0
+,,Ensure MySQL packages are installed.,,,,,,,,,,,,,0,0
+,,Ensure MySQL is stopped after initial install.,,,,,,,,,,,,,0,0
+,,Delete innodb log files created by apt package after initial install.,,,,,,,,,,,,,0,0
+,,Copy datadir to new directory,,,,,,,,,,,,,0,0
+,,Disable apparmor for mysqld only,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\theopenlab\openlab-zuul-jobs\roles\export-kind-gcp-account\tasks\main.yaml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,Set google account key file path,,,,,,,,,,,,,0,0
+,,Save google account key file,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\dresden-weekly\ansible-network-interfaces\tasks\all_interfaces.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,create directory,,,,,,,,,,,,,0,0
+,,all interfaces,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-ansible\tripleo_ansible\roles\tripleo_run_cephadm\tasks\main.yml,,,0,0,0,0,1,0,1,0,0,0,,,,
+,,set cephadm playbook,,,,,,,,,,,,,0,0
+,,Setup the log path,,,,,,,,,,,,,0,0
+,,Setup the cephadm playbook command,,,,,,,,,,,,,0,0
+,,rotate cephadm_command.log,,,,,,,,,,,,,0,0
+,,save cephadm playbook command to shell script,,,,,,,,,,,,,1,0
+,,Notify user about upcoming cephadm execution(s),,,,,,,,,,,,,0,0
+,,run cephadm playbook,,,,,,,,,,,,,0,0
+,,search triple_run_cephadm_output of cephadm run(s) non-zero return codes,,,,,,,,,,,,,0,0
+,,print cephadm triple_run_cephadm_output in case of failure,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\OXID-eSales\oxvm_base\ansible\roles\java\tasks\install.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Install java packages,,,,,,,,,,,,,0,0
+,,Download libjpeg required for java 7,,,,,,,,,,,,,0,0
+,,Install libjpeg,,,,,,,,,,,,,0,0
+,,Download java 7,,,,,,,,,,,,,0,0
+,,Install java 7,,,,,,,,,,,,,0,0
+,,Set java alternative,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Cloudbox\Cloudbox\roles\portainer\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Set DNS Record on CloudFlare,,,,,,,,,,,,,0,0
+,,Stop and remove any existing container,,,,,,,,,,,,,0,0
+,,Create portainer directories,,,,,,,,,,,,,0,0
+,,Create and start container,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\playbooks\restart_unbound.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,find instances,,,,,,,,,,,,0,0,,
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\andrewrothstein\ansible-unarchive-deps\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,resolve platform specific vars,,,,,,,,,,,,,0,0
+,,install unarchive module pkgs...,,,,,,,,,,,,,1,0
+,,install OS packages,,,,,,,,,,,,,0,0
+,,install PowerShell module,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\coopdevs\timeoverflow-provisioning\roles\webserver\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Create systemd unit for timeoverflow unicorn,,,,,,,,,,,,,0,0
+,,Reload systemd,,,,,,,,,,,,,0,0
+,,Create crontab entries for scheduled job,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CenterForOpenScience\cos-ansible-base\roles\docker-dor\tasks\server.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensure docker dor server directories exist,,,,,,,,,,,,,0,0
+,,Copy docker dor server configuration settings,,,,,,,,,,,,,0,0
+,,Restart docker dor server container,,,,,,,,,,,,,0,0
+,,Run docker dor server container,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\stackhpc\ansible-role-libvirt-vm\tasks\volumes.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensure remote images are downloaded,,,,,,,,,,,,,0,0
+,,Ensure local images are copied,,,,,,,,,,,,,0,0
+,,Ensure the VM disk volumes exist,,,,,,,,,,,,,1,0
+,,Ensure the VM network volumes exist,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\oravirt\ansible-oracle\roles\orahost\tasks\main.yml,,,0,1,0,1,0,0,1,0,0,0,,,,
+,,Check for correct OS family & min version,,,,,,,,,,,,,0,0
+,,Install packages required by Oracle on OL/RHEL version 6 and 7,,,,,,,,,,,,,0,0
+,,Install custom packages required by Oracle on SLES (oracle_packages_sles),,,,,,,,,,,,,0,0
+,,Install default packages required by Oracle on SLES (version dependant),,,,,,,,,,,,,0,0
+,,Install packages required by Oracle for ASMlib on OL/RHEL,,,,,,,,,,,,,0,0
+,,Install packages required by Oracle for ASMlib on SLES,,,,,,,,,,,,,0,0
+,,Check if firewall is installed,,,,,,,,,,,,,0,0
+,,Disable firewall,,,,,,,,,,,,,0,0
+,,Disable selinux (permanently),,,,,,,,,,,,,0,0
+,,Disable selinux (runtime),,,,,,,,,,,,,0,0
+,,Timezone,,,,,,,,,,,,,1,0
+,,Set Timezone,,,,,,,,,,,,,0,0
+,,Restart crond after timezone change,,,,,,,,,,,,,0,0
+,,Check dns for host,,,,,,,,,,,,,0,0
+,,Add host to /etc/hosts if needed,,,,,,,,,,,,,0,0
+,,User | Add group(s),,,,,,,,,,,,,0,0
+,,User | Add Oracle user,,,,,,,,,,,,,0,0
+,,User | Add Grid user,,,,,,,,,,,,,0,0
+,,User | Add Oracle user to sudoers,,,,,,,,,,,,,0,0
+,,User | Add Grid user to sudoers,,,,,,,,,,,,,0,0
+,,ssh-keys | Generate SSH keys,,,,,,,,,,,,,0,0
+,,ssh-keys | Add ssh-keys & authorized_keys to oracle user,,,,,,,,,,,,,0,0
+,,ssh-keys | Add ssh-keys & authorized_keys to grid user,,,,,,,,,,,,,0,0
+,,ssh-keys | Add short name to known_hosts,,,,,,,,,,,,,0,0
+,,ssh-keys | Add FQDN to known_hosts,,,,,,,,,,,,,0,0
+,,ssh-keys | Add IPv4 to known_hosts,,,,,,,,,,,,,0,0
+,,ssh-keys | Copy known_hosts to oracle user,,,,,,,,,,,,,0,0
+,,ssh-keys | Copy known_hosts to grid user,,,,,,,,,,,,,0,0
+,,ssh-keys | Remove generated keys from control machine,,,,,,,,,,,,,0,0
+,,filesystem | Create directories,,,,,,,,,,,,,0,0
+,,filesystem | Create partition and pv,,,,,,,,,,,,,0,0
+,,filesystem | Create vg,,,,,,,,,,,,,0,0
+,,filesystem | create lv,,,,,,,,,,,,,0,0
+,,filesystem | create fs,,,,,,,,,,,,,0,0
+,,filesytem | mount dir,,,,,,,,,,,,,1,0
+,,filesytem | add swap to fstab,,,,,,,,,,,,,0,0
+,,filesystem | Change permission on directories,,,,,,,,,,,,,0,0
+,,filesystem | Create directory for oraInventory,,,,,,,,,,,,,0,0
+,,Oracle-recommended kernel settings,,,,,,,,,,,,,0,0
+,,Oracle hugepages,,,,,,,,,,,,,0,0
+,,Flush Buffer Cache,,,,,,,,,,,,,1,0
+,,Flush Buffer Cache when hugepages have been changed,,,,,,,,,,,,,0,0
+,,Try sysctl again,,,,,,,,,,,,,0,0
+,,Oracle-recommended PAM config,,,,,,,,,,,,,0,0
+,,Oracle-recommended security limits,,,,,,,,,,,,,0,0
+,,Oracle-recommended security limits on SLES,,,,,,,,,,,,,0,0
+,,Execute Distribution tasks,,,,,,,,,,,,,0,0
+,,Network | Configure NOZEROCONF,,,,,,,,,,,,,0,0
+,,Network | Setup ip-address for RAC Interconnect,,,,,,,,,,,,,0,0
+,,Network | Bring up eth1,,,,,,,,,,,,,0,0
+,,Create stage directory,,,,,,,,,,,,,0,0
+,,Create rsp stage directory,,,,,,,,,,,,,0,0
+,,udev | Create udev stage directory,,,,,,,,,,,,,0,0
+,,Asmlib | Add configuration,,,,,,,,,,,,,0,0
+,,Asmlib | Add configuration (link),,,,,,,,,,,,,0,0
+,,Asmlib | Enable and start Oracle Asmlib,,,,,,,,,,,,,0,0
+,,Asmlib | Restart Asmlib,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\coopdevs\timeoverflow-provisioning\roles\common\tasks\groups.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Create 'timeoverflow' group,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ebbba-org\ansible-role-bigbluebutton\tasks\bbb-html5.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,Configure cluster proxy in meteor,,,,,,,,,,,,,0,0
+,,Write custom meteor config,,,,,,,,,,,,,0,0
+,,Enable sipjsHackViaWs,,,,,,,,,,,,,0,0
+,,Disable sipjsHackViaWs,,,,,,,,,,,,,0,0
+,,Set loadbalancer.nginx for the cluster proxy,,,,,,,,,,,,,0,0
+,,Set bbb-html5.nginx for the cluster proxy,,,,,,,,,,,,,0,0
+,,Increase max-old-space-size in frontends,,,,,,,,,,,,,0,0
+,,Set amount of html5 back- and frontends,,,,,,,,,,,,,0,0
+,,Setup html5-frontend nginx connections,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\kubernetes-sigs\kubespray\roles\etcd\tasks\install_docker.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Get currently-deployed etcd version,,,,,,,,,,,,,0,0
+,,Get currently-deployed etcd-events version,,,,,,,,,,,,,0,0
+,,Restart etcd if necessary,,,,,,,,,,,,,0,0
+,,Restart etcd-events if necessary,,,,,,,,,,,,,0,0
+,,Install etcd launch script,,,,,,,,,,,,,0,0
+,,Install etcd-events launch script,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\fusor\catasb\ansible\roles\ssl_setup\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Configure SSL,,,,,,,,,,,,,1,0
+,,Check if SSL certs have already been generated for this instance,,,,,,,,,,,,,0,0
+,,Check if SSL certs have already been generated for this instance locally,,,,,,,,,,,,,0,0
+,,Clone letsencrypt,,,,,,,,,,,,,0,0
+,,Make temporary letsencrypt folder,,,,,,,,,,,,,0,0
+,,Run letsencrypt script for console,,,,,,,,,,,,,0,0
+,,Store SSL certs locally for future instances,,,,,,,,,,,,,0,0
+,,Store SSL certs locally for future instances,,,,,,,,,,,,,0,0
+,,Copy credentials into /tmp,,,,,,,,,,,,,0,0
+,,Copy credentials into /tmp,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Juniper\contrail-ansible\kolla-ansible\ansible\roles\bifrost\tasks\deploy-servers.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Enrolling physical servers with ironic,,,,,,,,,,,,,0,0
+,,Deploy physical servers with ironic,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-openstack\ansible-nfv\roles\configuration\switches_config\tasks\main.yml,,,0,0,0,0,1,0,1,0,0,1,,,,
+,,Load switch configuration,,,,,,,,,,,,,0,0
+,,Create VLANs list,,,,,,,,,,,,,0,0
+,,Include {{ ansible_network_os }} tasks,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openfoodfoundation\ofn-install\playbooks\db_backup.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,Backup database to local machine,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-ansible-os_ironic\tasks\ironic_inspector_post_install.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Default pxelinux.0 config,,,,,,,,,,,,,0,0
+,,Copy Inspector iPXE Configuration,,,,,,,,,,,,,0,0
+,,Download IPA Images,,,,,,,,,,,,,0,0
+,,Configure nginx when inspector boot mode is http,,,,,,,,,,,,,1,0
+,,Disable default nginx configuration,,,,,,,,,,,,,0,0
+,,Remove default nginx config,,,,,,,,,,,,,0,0
+,,Ensure nginx configuration directories exist,,,,,,,,,,,,,0,0
+,,Configure nginx virtual hosts,,,,,,,,,,,,,0,0
+,,Link to enable nginx virtual hosts,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\systemd\tasks\tmpfiles_configs.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Tmpfiles Configs > Exclusive,,,,,,,,,,,,,0,0
+,,Tmpfiles Configs > Templates present,,,,,,,,,,,,,0,0
+,,Tmpfiles Configs > Files absent,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\pagure\fedmsg\tasks\main.yml,,,0,0,0,1,0,0,1,0,0,0,,,,
+,,install needed packages,,,,,,,,,,,,,0,0
+,,create a /var/run/fedmsg dir with setgid for monitoring.,,,,,,,,,,,,,0,0
+,,setup /etc/fedmsg.d directory,,,,,,,,,,,,,0,0
+,,setup basic /etc/fedmsg.d/ contents,,,,,,,,,,,,,1,0
+,,Remove unwanted files,,,,,,,,,,,,,0,0
+,,setup /etc/pki/fedmsg directory,,,,,,,,,,,,,0,0
+,,install fedmsg ca.cert,,,,,,,,,,,,,0,0
+,,fedmsg certs,,,,,,,,,,,,,0,0
+,,fedmsg keys,,,,,,,,,,,,,0,0
+,,ensure a directory exists for our custom selinux module,,,,,,,,,,,,,0,0
+,,copy over our custom selinux module,,,,,,,,,,,,,0,0
+,,install our custom selinux module,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\cjeanner\tripleo-lab\roles\podman\tasks\run_container.yaml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,is {{ct_name}} already created,,,,,,,,,,,,,0,0
+,,create {{ct_name}} if needed,,,,,,,,,,,,,0,0
+,,create {{ct_name}} systemd unit,,,,,,,,,,,,,0,0
+,,enable {{ct_name}} container unit,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\nexcess\ansible-playbook-cloudhost\playbooks\tasks\import-dev.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Make a New MySQL User Password,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Scrub Any Other Lingering Old/New Username References,,,,,,,,,,,,,0,0
+,,Scrub Any Other Lingering Old/New Domain References,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-validations\roles\check_undercloud_conf\tasks\main.yml,,,0,0,0,0,1,0,1,0,0,0,,,,
+,,Ensure we get needed facts,,,,,,,,,,,,,0,0
+,,Retrieve {{ ansible_env.HOME }}/undercloud.conf content,,,,,,,,,,,,,0,0
+,,Store all properties and file type properties,,,,,,,,,,,,,0,0
+,,Get value from conf file,,,,,,,,,,,,,0,0
+,,Check file property point to existing file,,,,,,,,,,,,,0,0
+,,fail if location doesn't exist,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-quickstart-extras\roles\undercloud-setup\tasks\write-outputs.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Write out tripleo-undercloud-outputs.yaml,,,,,,,,,,,,,0,0
+,,Write out tripleo-undercloud-passwords.yaml,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\bodhi2\backend\tasks\main.yml,,,0,1,0,1,0,0,1,0,0,0,,,,
+,,add ftpsync group,,,,,,,,,,,,,0,0
+,,add ftpsync user,,,,,,,,,,,,,0,0
+,,install needed packages,,,,,,,,,,,,,1,0
+,,add apache user to the masher group so it can talk to the monitoring socket,,,,,,,,,,,,,0,0
+,,Put pungi configurations in place,,,,,,,,,,,,,0,0
+,,put owner-sync-pagure in place,,,,,,,,,,,,,0,0
+,,sync packages from pagure-on-dist-git to koji (all branches),,,,,,,,,,,,,0,0
+,,put the koji sync listener script in place,,,,,,,,,,,,,0,0
+,,put the koji sync listener systemd file in place.,,,,,,,,,,,,,0,0
+,,start the koji sync listener,,,,,,,,,,,,,0,0
+,,put new-updates-sync in place,,,,,,,,,,,,,0,0
+,,put bodhi-automated-pushes.py in place,,,,,,,,,,,,,0,0
+,,put update-fullfiletimelist in place,,,,,,,,,,,,,0,0
+,,add create-filelist script from quick-fedora-mirror,,,,,,,,,,,,,0,0
+,,Set the updates sync cron job,,,,,,,,,,,,,0,0
+,,Set the bodhi-automated-pushes cron job,,,,,,,,,,,,,0,0
+,,directory sizes update cron job.,,,,,,,,,,,,,0,0
+,,bodhi-approve-testing cron job.,,,,,,,,,,,,,0,0
+,,bodhi-check-policies cron job.,,,,,,,,,,,,,0,0
+,,bodhi-clean-old-composes cron job.,,,,,,,,,,,,,0,0
+,,bodhi-expire-overrides cron job.,,,,,,,,,,,,,0,0
+,,Install logging.yaml,,,,,,,,,,,,,0,0
+,,Install production.ini,,,,,,,,,,,,,0,0
+,,Install celeryconfig.py,,,,,,,,,,,,,0,0
+,,Install fedora-messaging config,,,,,,,,,,,,,0,0
+,,make a mnt/koji link,,,,,,,,,,,,,0,0
+,,Create /etc/systemd/system/fm-consumer@.service.d,,,,,,,,,,,,,0,0
+,,Configure fm-consumer@.service to run as apache,,,,,,,,,,,,,0,0
+,,Setup the Celery service,,,,,,,,,,,,,0,0
+,,ensure apache is disabled on the backend,,,,,,,,,,,,,0,0
+,,Create /etc/pki/fedora-messaging,,,,,,,,,,,,,0,0
+,,Deploy the fedora-messaging CA,,,,,,,,,,,,,0,0
+,,Deploy the fedora-messaging cert,,,,,,,,,,,,,0,0
+,,Deploy the fedora-messaging key,,,,,,,,,,,,,0,0
+,,ensure fedora-messaging and celery are enabled and started on the backend,,,,,,,,,,,,,0,0
+,,Set up koji profile,,,,,,,,,,,,,0,0
+,,Grant fedmsg user read permission to koji keytab file used by bodhi,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\weareinteractive\ansible-newrelic\tasks\install_redhat.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Installing dependencies,,,,,,,,,,,,,0,0
+,,Installing packages,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\geerlingguy\ansible-role-nodejs\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Define nodejs_install_npm_user,,,,,,,,,,,,,0,0
+,,Create npm global directory,,,,,,,,,,,,,0,0
+,,Add npm_config_prefix bin directory to global $PATH.,,,,,,,,,,,,,0,0
+,,Ensure npm global packages are installed.,,,,,,,,,,,,,0,0
+,,Install packages defined in a given package.json.,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\sqlite\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Install,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\bifrost\playbooks\example-deploy-all-available-nodes.yaml,,,0,0,0,0,0,0,0,0,0,,,,,
+,Collect facts,,,,,,,,,,,,0,0,,
+,Create configuration drive files and deploy machines from inventory,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\ansible-sshd\tasks\authorized_keys_lookup.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Create OpenSSH lookup system group,,,,,,,,,,,,,0,0
+,,Create OpenSSH lookup system user,,,,,,,,,,,,,0,0
+,,Create OpenSSH LDAP bind password file,,,,,,,,,,,,,0,0
+,,Create /etc/ssh/authorized_keys_lookup.d directory,,,,,,,,,,,,,0,0
+,,Generate authorized keys lookup scripts,,,,,,,,,,,,,0,0
+,,Generate authorized keys lookup hook,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\confluentinc\cp-ansible\roles\kafka_connect\tasks\health_check.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,Wait for API to return 200,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Wait for API to return 200 - mTLS,,,,,,,,,,,,,1,0
+,,Fetch Log Files and Error out,,,,,,,,,,,,,0,0
+,,Fetch Files for Debugging Failure,,,,,,,,,,,,,0,0
+,,Fail Provisioning,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ReinerNippes\nextcloud\roles\prep_talk\tasks\Fedora.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,install coturn,,,,,,,,,,,,,0,0
+,,bring /etc/turnserver/turnserver.conf in place,,,,,,,,,,,,,0,0
+,,enable turnserver,,,,,,,,,,,,,0,0
+,,open firewall,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-quickstart\playbooks\build-images.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,Add virthost to inventory,,,,,,,,,,,,0,0,,
+,Add the virthost node to the generated inventory,,,,,,,,,,,,0,0,,
+,Setup the virthost to build images then build them,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CentOS-PaaS-SIG\linchpin\dev_setup\playbooks\roles\minishift\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Is minishift binary present in {{ minishift_dest_dir }},,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Set minishift disk-size {{ disk_size }},,,,,,,,,,,,,0,0
+,,Set minishift disk-size {{ memory }},,,,,,,,,,,,,0,0
+,,Set minishift base device size to {{basedevice_size}},,,,,,,,,,,,,0,0
+,,Pull down the minishift iso,,,,,,,,,,,,,0,0
+,,Check if the minishift profile exists,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\AtlasOfLivingAustralia\ala-install\ansible\roles\ansible-elasticsearch\tasks\elasticsearch-config.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Create Configuration Directory,,,,,,,,,,,,,0,0
+,,Create PID Directory,,,,,,,,,,,,,0,0
+,,Create Others Directories,,,,,,,,,,,,,0,0
+,,Copy Configuration File,,,,,,,,,,,,,0,0
+,,Copy Default File,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Make sure destination dir exists,,,,,,,,,,,,,0,0
+,,Copy specific ElasticSearch Systemd config file,,,,,,,,,,,,,0,0
+,,Copy log4j2.properties File,,,,,,,,,,,,,0,0
+,,Copy jvm.options File,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\remove-ubuntu-key.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,unknown,,,,,,,,,,,,0,0,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\dimagi\commcare-cloud\src\commcare_cloud\ansible\roles\pg_backup\tasks\backup_plain_clean.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Remove old Hourly Cron job,,,,,,,,,,,,,0,0
+,,Remove old Daily Cron job,,,,,,,,,,,,,0,0
+,,Remove old Weekly Cron job,,,,,,,,,,,,,0,0
+,,Remove plain backup files,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\kyl191\ansible-role-openvpn\tasks\client_keys.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Create openvpn ovpn file directory,,,,,,,,,,,,,0,0
+,,Copy openssl client extensions,,,,,,,,,,,,,0,0
+,,Generate client key,,,,,,,,,,,,,0,0
+,,Protect client keys,,,,,,,,,,,,,0,0
+,,Sign client key,,,,,,,,,,,,,0,0
+,,Register server ca key,,,,,,,,,,,,,0,0
+,,Register tls-auth key,,,,,,,,,,,,,0,0
+,,Register client certs,,,,,,,,,,,,,0,0
+,,Register client keys,,,,,,,,,,,,,0,0
+,,Generate client config,,,,,,,,,,,,,0,0
+,,Fetch client config,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\snowplow\ansible-playbooks\roles\nodejs\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Node.js | Checking installed version of node.js,,,,,,,,,,,,,0,0
+,,g++ | Installing g++,,,,,,,,,,,,,0,0
+,,Node.js | Fetching node.js source,,,,,,,,,,,,,0,0
+,,Node.js | Unpack node.js tarball,,,,,,,,,,,,,0,0
+,,Node.js | Configure,,,,,,,,,,,,,0,0
+,,Node.js | Make,,,,,,,,,,,,,0,0
+,,Node.js | Make install,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\ansible-role-tripleo-modify-image\tasks\precheck.yml,,,0,0,0,0,1,0,1,0,0,0,,,,
+,,Ensure that source_image is defined,,,,,,,,,,,,,0,0
+,,Set default modified_append_tag,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Juniper\contrail-ansible-internal\playbooks\contrail_issu.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,Contrail ISSU,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\RedHatQE\cinch\cinch\roles\jenkins_slave\tasks\check_swarm_errors.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,report errors for swarm service,,,,,,,,,,,,,0,0
+,,exit with failure if swarm service could not connect to the master,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\RedHatGov\redhatgov.workshops\jboss-migration-toolkit\roles\openshift_templates\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Make sure you have Git installed,,,,,,,,,,,,,0,0
+,,Name for git module.,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\shadow-robot\aurora\ansible\roles\products\hand-e\server\desktop-icons\tasks\hand-icon-bimanual.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Copy desktop icon,,,,,,,,,,,,,0,0
+,,Create executable launch script for hand,,,,,,,,,,,,,0,0
+,,Create desktop icon for hand,,,,,,,,,,,,,0,0
+,,Make desktop icon for hand trusted,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\William-Yeh\ansible-oracle-java\tasks\fetch_jce.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,get JCE,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\coopdevs\odoo-role\tasks\main.yml,,,0,1,0,1,1,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Install system packages,,,,,,,,,,,,,1,0
+,,Install libjpeg-dev,,,,,,,,,,,,,0,0
+,,Check if wkhtmltopdf is installed,,,,,,,,,,,,,0,0
+,,Download and install wkhtmltopdf only if not already present at any version,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Create Odoo directories,,,,,,,,,,,,,0,0
+,,Create log dir,,,,,,,,,,,,,0,0
+,,Create log file,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Add Python Magic to requirements,,,,,,,,,,,,,0,0
+,,Install Odoo python requirements,,,,,,,,,,,,,0,0
+,,Install nodejs packages,,,,,,,,,,,,,0,0
+,,Install Less CSS via nodejs,,,,,,,,,,,,,0,0
+,,Create node symlink,,,,,,,,,,,,,0,0
+,,Install Odoo,,,,,,,,,,,,,0,0
+,,Populate community db modules,,,,,,,,,,,,,0,0
+,,Populate community shared modules,,,,,,,,,,,,,0,0
+,,Join db + shared community modules,,,,,,,,,,,,,0,0
+,,Populate core db modules,,,,,,,,,,,,,0,0
+,,Populate core shared modules,,,,,,,,,,,,,0,0
+,,Join db + shared core modules,,,,,,,,,,,,,0,0
+,,Join core + community modules,,,,,,,,,,,,,0,0
+,,Create unique list of modules,,,,,,,,,,,,,0,0
+,,Check server wide configuration,,,,,,,,,,,,,0,0
+,,Add Odoo config,,,,,,,,,,,,,0,0
+,,"Check if Odoo database has been initialized (""0"" false, ""1"" true)",,,,,,,,,,,,,0,0
+,,Init Odoo database(s): {{ odoo_role_odoo_dbs }},,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Force update odoo modules,,,,,,,,,,,,,1,0
+,,Update in Odoo pip upgraded community modules,,,,,,,,,,,,,1,0
+,,Build the list of new modules to install,,,,,,,,,,,,,0,0
+,,Install only new Odoo modules,,,,,,,,,,,,,1,0
+,,Set ribbon name for test dbs,,,,,,,,,,,,,0,0
+,,Disable ribbon name for prod dbs,,,,,,,,,,,,,0,0
+,,Install development environment pip packages,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-ansible\tripleo_ansible\roles\tripleo_ceph_distribute_keys\tasks\distribute_conf_and_keys.yaml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Ensure tripleo_cephadm_config_home (e.g. /etc/ceph) exists,,,,,,,,,,,,,0,0
+,,push the admin keyring to the admin nodes of the cluster,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\docker\tasks\applications.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Applications > Templates,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\roles\oauth2_proxy\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,create application user,,,,,,,,,,,,,0,0
+,,set oauth2_proxy app dir permissions,,,,,,,,,,,,,0,0
+,,set oauth2_proxy conf dir permissions,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\avinetworks\ansible-role-aviconfig\tasks\hardwaresecuritymodulegroup.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Avi HardwareSecurityModuleGroup | Create or Update HardwareSecurityModuleGroup,,,,,,,,,,,,,1,1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-ansible\playbooks\listening-port-report.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,Gather listening ports report,,,,,,,,,,,,0,0,,
+,,Gather listening ports,,,,,,,,,,,,,0,0
+,,create report,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Juniper\contrail-ansible\kolla-ansible\ansible\roles\kuryr\tasks\deploy.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Flush handlers,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\freifunk-berlin\bbb-configs\roles\cfg_openwrt\tasks\fix_permissions.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Set permission for dropbear directory,,,,,,,,,,,,,0,0
+,,Set permission for authorized_keys,,,,,,,,,,,,,0,0
+,,Set permission for replace_secrets script,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\adriagalin\ansible.motd\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Remove default motd configuration,,,,,,,,,,,,,0,0
+,,Create backup folder,,,,,,,,,,,,,0,0
+,,Check if we need to move files,,,,,,,,,,,,,0,0
+,,Move files to backup folder,,,,,,,,,,,,,0,0
+,,Restore default motd configuration from backups folder,,,,,,,,,,,,,0,0
+,,Add 99-footer file,,,,,,,,,,,,,0,0
+,,Delete 99-footer file,,,,,,,,,,,,,0,0
+,,Add dynamic message before motd,,,,,,,,,,,,,0,0
+,,Remove dynamic message before motd,,,,,,,,,,,,,0,0
+,,Delete /etc/motd file,,,,,,,,,,,,,0,0
+,,Check motd tail supported,,,,,,,,,,,,,0,0
+,,Add motd tail,,,,,,,,,,,,,0,0
+,,Add motd,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ilkilab\agorakube\roles\install-runtimes\tasks\uninstall-docker.yaml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,stop docker,,,,,,,,,,,,,0,0
+,,Uninstall docker,,,,,,,,,,,,,0,0
+,,Uninstall docker in specific release,,,,,,,,,,,,,0,0
+,,uninstall Docker for Debian lagorakube distros,,,,,,,,,,,,,0,0
+,,uninstall Docker for Centos lagorakube distros,,,,,,,,,,,,,0,0
+,,Delete Docker config files,,,,,,,,,,,,,0,0
+,,Delete all Docker  Network interfaces presents on the host,,,,,,,,,,,,,0,0
+,,Delete plugin CNI,,,,,,,,,,,,,0,0
+,,Delete /var/lib/docker,,,,,,,,,,,,,0,0
+,,Delete /var/lib/dockershim,,,,,,,,,,,,,0,0
+,,Delete /var/run/dockershim.sock,,,,,,,,,,,,,0,0
+,,Delete /var/run/docker.sock,,,,,,,,,,,,,0,0
+,,Unmount /var/run/docker/netns/default volumes,,,,,,,,,,,,,0,0
+,,Delete /var/run/docker dir,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\influxdata\ansible-chrony\tasks\install.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Install Chrony,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\roots\trellis\roles\ssmtp\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Install ssmtp,,,,,,,,,,,,,0,0
+,,ssmtp configuration,,,,,,,,,,,,,0,0
+,,ssmtp revaliases configuration,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Juniper\contrail-ansible\kolla-ansible\ansible\roles\ceph\tasks\pull.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Pulling ceph-mon image,,,,,,,,,,,,,0,0
+,,Pulling ceph-osd image,,,,,,,,,,,,,0,0
+,,Pulling ceph-rgw image,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\splunk\splunk-ansible\roles\splunk_common\tasks\enable_forwarder_monitoring.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Establish DMC forwarder monitor API,,,,,,,,,,,,,0,0
+,,Retrieve forwarder assets query,,,,,,,,,,,,,0,0
+,,Configure forwarder assets search,,,,,,,,,,,,,1,0
+,,Build forwarder assets,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\sky-uk\clusterverse\redeploy\_scheme_rmvm_keepdisk_rollback\tasks\by_hosttype_by_host.yml,,,1,0,0,0,0,0,0,0,0,1,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,stop/ remove previous instance,,,,,,,,,,,,,1,0
+,,by_hosttype_by_host | run predeleterole role,,,,,,,,,,,,,0,0
+,,by_hosttype_by_host | Power off old VM,,,,,,,,,,,,,0,0
+,,by_hosttype_by_host | Run {{mainclusteryml}} to add {{host_to_redeploy.hostname}} to cluster,,,,,,,,,,,,,0,1
+,,Unknown,,,,,,,,,,,,,0,0
+,,"by_hosttype_by_host | re-acquire cluster_hosts_state (NOT cluster_hosts_target, as we are augmenting this in _add_src_diskinfo_to_cluster_hosts_target__ (also, it is not affected by change of state))",,,,,,,,,,,,,0,1
+,,"by_hosttype_by_host | Power on new VM (not needed for normal redeploy, but for rescue case)",,,,,,,,,,,,,0,1
+,,by_hosttype_by_host | re-acquire the dynamic inventory,,,,,,,,,,,,,0,0
+,,"by_hosttype_by_host | re-acquire cluster_hosts_state (NOT cluster_hosts_target, as we are augmenting this in _add_src_diskinfo_to_cluster_hosts_target__ (also, it is not affected by change of state))",,,,,,,,,,,,,0,1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\tableau.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,Deploy tableau,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\geerlingguy\ansible-role-clamav\tasks\setup-RedHat.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensure Freshclam service is available.,,,,,,,,,,,,,0,0
+,,Reload systemd after adding service.,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\avinetworks\ansible-role-aviconfig\tasks\gslbgeodbprofile.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Avi GslbGeoDbProfile | Create or Update GslbGeoDbProfile,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\ssh\tasks\services.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Services > Services,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-zuul-jobs\roles\configure-swap\tasks\ephemeral.yaml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Assert that ephemeral_device is defined,,,,,,,,,,,,,0,0
+,,Set partition names,,,,,,,,,,,,,0,0
+,,Ensure ephemeral device is unmounted,,,,,,,,,,,,,0,0
+,,Get existing partitions,,,,,,,,,,,,,0,0
+,,Remove any existing partitions,,,,,,,,,,,,,0,0
+,,Create new disk label,,,,,,,,,,,,,0,0
+,,Create swap partition,,,,,,,,,,,,,0,0
+,,Create opt partition,,,,,,,,,,,,,0,0
+,,Make swap on partition,,,,,,,,,,,,,0,0
+,,Write swap to fstab,,,,,,,,,,,,,0,0
+,,Add all swap,,,,,,,,,,,,,0,0
+,,Create /opt filesystem,,,,,,,,,,,,,0,0
+,,Copy old /opt,,,,,,,,,,,,,0,0
+,,Add opt to fstab and mount,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\debops\ansible\roles\postscreen\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Import DebOps global handlers,,,,,,,,,,,,,0,0
+,,Generate Postscreen configuration files,,,,,,,,,,,,,0,0
+,,Make sure that Ansible local facts directory exists,,,,,,,,,,,,,0,0
+,,Save Postscreen local facts,,,,,,,,,,,,,0,0
+,,Update Ansible facts if they were modified,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Juniper\contrail-ansible\playbooks\roles\node\tasks\contrailctl_facts.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,set facts for global vars,,,,,,,,,,,,,0,0
+,,set facts for non-global vars,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\wcm-io-devops\ansible-conga-aem-dispatcher\tasks\setup_RedHat.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Make sure /etc/ssl/private exists.,,,,,,,,,,,,,0,0
+,,Create /etc/ssl/private link for SSL key files.,,,,,,,,,,,,,0,0
+,,Set APACHE_LOG_DIR variable.,,,,,,,,,,,,,0,0
+,,Copy conf.d CONGA files,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\fubarhouse\ansible-role-golang\tasks\install-git.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Go-Lang | Ensure directory is absent,,,,,,,,,,,,,0,0
+,,Go-Lang | Ensure directory is empty,,,,,,,,,,,,,0,0
+,,Go-Lang | Clone distribution,,,,,,,,,,,,,0,0
+,,Go-Lang | Build from source,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\kubernetes-sigs\kubespray\roles\download\tasks\download_container.yml,,,0,0,0,1,1,1,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,1,0
+,,set default values for flag variables,,,,,,,,,,,,,0,0
+,,download_container | Set a few facts,,,,,,,,,,,,,0,0
+,,download_container | Prepare container download,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,download_container | Determine if image is in cache,,,,,,,,,,,,,0,0
+,,download_container | Set fact indicating if image is in cache,,,,,,,,,,,,,0,0
+,,Stop if image not in cache on ansible host when download_force_cache=true,,,,,,,,,,,,,0,0
+,,download_container | Download image if required,,,,,,,,,,,,,1,0
+,,download_container | Save and compress image,,,,,,,,,,,,,0,0
+,,download_container | Copy image to ansible host cache,,,,,,,,,,,,,0,0
+,,download_container | Upload image to node if it is cached,,,,,,,,,,,,,0,0
+,,download_container | Load image into the local container registry,,,,,,,,,,,,,0,0
+,,download_container | Remove container image from cache,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\theforeman\forklift\roles\plugins\foreman_openscap\install\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Install openscap plugin,,,,,,,,,,,,,0,0
+,,Install foreman openscap puppet module,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ilkilab\agorakube\roles\setup-etcd\tasks\clean-previous-etcd-install.yaml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Find old ETCD dir binaries,,,,,,,,,,,,,0,0
+,,Delete prevous etcd binaries,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-ansible\tripleo_ansible\roles\tripleo_timemaster\tasks\config.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Disable chronyd,,,,,,,,,,,,,0,0
+,,Disable ptp4l,,,,,,,,,,,,,0,0
+,,Disable phc2sys,,,,,,,,,,,,,0,0
+,,Install timemaster configuration file,,,,,,,,,,,,,0,0
+,,Restart timemaster with config,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\maticnetwork\node-ansible\playbooks\bor.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,Install Bor,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\cjeanner\tripleo-lab\roles\undercloud\tasks\pkg-build.yaml,,,0,0,0,0,0,1,1,0,0,0,,,,
+,,Set some facts,,,,,,,,,,,,,0,0
+,,Set libselinux name for python3,,,,,,,,,,,,,0,0
+,,Set libselinux name for python2,,,,,,,,,,,,,0,0
+,,Install DLRN deps,,,,,,,,,,,,,1,0
+,,Install mock from EPEL,,,,,,,,,,,,,0,0
+,,Create mock group,,,,,,,,,,,,,0,0
+,,Add stack to mock group,,,,,,,,,,,,,0,0
+,,Clean DLRN directory,,,,,,,,,,,,,0,0
+,,Ensure DLRN directory is present,,,,,,,,,,,,,0,0
+,,Push projects config,,,,,,,,,,,,,0,0
+,,Install and update pip in venv,,,,,,,,,,,,,0,0
+,,Install rdopkg in virtualenv,,,,,,,,,,,,,0,0
+,,Install DLRN in virtualenv,,,,,,,,,,,,,0,0
+,,Fetch rdoinfo,,,,,,,,,,,,,0,0
+,,Build packages,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ArdanaCLM\ardana-ansible\roles\deployer-setup\tasks\configure-bash.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,deployer-setup | configure-bash | Unset HISTCONTROL in the environment,,,,,,,,,,,,,0,0
+,,deployer-setup | configure-bash | HISTCONTROL comment fixing,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-ansible\tripleo_ansible\roles\tripleo_cephadm\tasks\rbd_mirror.yaml,,,0,0,0,0,1,1,0,0,0,0,,,,
+,,Deploy the RBD Mirror daemon,,,,,,,,,,,,,1,0
+,,Collect the host and build the resulting host list,,,,,,,,,,,,,0,0
+,,Collect the host and build the resulting host list,,,,,,,,,,,,,0,0
+,,Create the RBD Mirror Daemon spec definition,,,,,,,,,,,,,0,0
+,,Configure RBD mirror,,,,,,,,,,,,,1,0
+,,Get ceph_cli,,,,,,,,,,,,,0,0
+,,enable mirroring on the pool,,,,,,,,,,,,,0,0
+,,list mirroring peer,,,,,,,,,,,,,0,0
+,,add a mirroring peer,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\nertwork\nextcloud-containerized\tasks\files.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Create /var/ansible dir,,,,,,,,,,,,,0,0
+,,Create nextcloud nginx file,,,,,,,,,,,,,0,0
+,,Create nextcloud remoteip file,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CenterForOpenScience\cos-ansible-base\roles\docker-postgres-barman\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensure docker postgres barman directories exist,,,,,,,,,,,,,0,0
+,,Copy docker postgres barman barman.conf file,,,,,,,,,,,,,0,0
+,,Copy docker postgres barman crontab file,,,,,,,,,,,,,0,0
+,,Copy docker postgres barman barman.d directory,,,,,,,,,,,,,0,0
+,,Restart docker postgres barman container,,,,,,,,,,,,,0,0
+,,Run docker postgres barman container,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\adoptium\infrastructure\ansible\playbooks\AdoptOpenJDK_Unix_Playbook\roles\Docker\tasks\rhel.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Import Docker Repo key,,,,,,,,,,,,,0,0
+,,Add Docker Repo x86-64/ppc64le,,,,,,,,,,,,,0,0
+,,Add Docker repo for s390x on RHEL,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\kolla-ansible\ansible\roles\manila\tasks\config.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensuring config directories exist,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Check if policies shall be overwritten,,,,,,,,,,,,,0,0
+,,Set manila policy file,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Copying over config.json files for services,,,,,,,,,,,,,0,0
+,,Copying over manila.conf,,,,,,,,,,,,,1,0
+,,Copying over manila-share.conf,,,,,,,,,,,,,1,0
+,,Copying over existing policy file,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\att-comdev\halcyon-kubernetes\kube-deploy\roles\kube-join\tasks\workers.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,join workers to the initialized kubernetes cluster,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\dimagi\commcare-cloud\src\commcare_cloud\ansible\roles\cloudwatch_logs\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Configure and start cloudwatch agent,,,,,,,,,,,,,1,0
+,,Check if cloudwatch-agent-ctl exists,,,,,,,,,,,,,0,0
+,,install cwa if check command fails,,,,,,,,,,,,,0,0
+,,Create cloudwatch logs config,,,,,,,,,,,,,0,0
+,,Ensure cloudwatch agent enabled,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ConnectBox\connectbox-pi\ansible\roles\ansible-postgresql\tasks\main.yml,,,0,0,0,1,1,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Set version fact,,,,,,,,,,,,,0,0
+,,Set OS-specific variables,,,,,,,,,,,,,0,0
+,,Set pgdata fact,,,,,,,,,,,,,0,0
+,,Set conf dir fact,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Create conf.d,,,,,,,,,,,,,0,0
+,,Check for conf.d include in postgresql.conf,,,,,,,,,,,,,0,0
+,,Set conf.d include in postgresql.conf,,,,,,,,,,,,,0,0
+,,Include 25ansible_postgresql.conf in postgresql.conf,,,,,,,,,,,,,0,0
+,,Set config options,,,,,,,,,,,,,0,0
+,,Install pg_hba.conf,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Check For Existing,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Ensure PostgreSQL is running,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\spantaleev\matrix-docker-ansible-deploy\roles\custom\matrix-synapse\tasks\register_user.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Fail if playbook called incorrectly,,,,,,,,,,,,,0,0
+,,Fail if playbook called incorrectly,,,,,,,,,,,,,0,0
+,,Fail if playbook called incorrectly,,,,,,,,,,,,,0,0
+,,Ensure matrix-synapse is started,,,,,,,,,,,,,0,0
+,,"Wait a while, so that Synapse can manage to start",,,,,,,,,,,,,0,0
+,,Register user,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\AtlasOfLivingAustralia\ala-install\ansible\roles\layer-ingestion\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,install Postgis and GDAL Execs,,,,,,,,,,,,,0,0
+,,ensure layer-ingestion directory exists,,,,,,,,,,,,,0,0
+,,clean layer-ingestion existing extract,,,,,,,,,,,,,0,0
+,,copy ingestion zip,,,,,,,,,,,,,0,0
+,,install unzip (Debian only),,,,,,,,,,,,,0,0
+,,unzip layer-ingestion,,,,,,,,,,,,,0,0
+,,unzip layer-ingestion,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Azure\azure_preview_modules\tests\integration\targets\azure_rm_appserviceplan\tasks\main.yml,,,1,0,0,0,0,0,0,0,0,0,,,,
+,,Prepare facts,,,,,,,,,,,,,0,0
+,,create a windows plan,,,,,,,,,,,,,0,0
+,,assert app service was created,,,,,,,,,,,,,0,0
+,,create a linux plan,,,,,,,,,,,,,0,0
+,,assert app service was created,,,,,,,,,,,,,0,0
+,,get app service plan by name,,,,,,,,,,,,,0,0
+,,assert is_linux is True,,,,,,,,,,,,,0,0
+,,create linux app service plan idempotent,,,,,,,,,,,,,0,0
+,,assert app service was created,,,,,,,,,,,,,0,0
+,,update a windows plan sku,,,,,,,,,,,,,0,0
+,,assert app service was updated,,,,,,,,,,,,,0,0
+,,update a linux plan number of workers,,,,,,,,,,,,,0,0
+,,assert app service was updated,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\collectd\rabbitmq\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,install collectd-rabbitmq,,,,,,,,,,,,,0,0
+,,install collectd rabbitmq config,,,,,,,,,,,,,0,0
+,,Let collectd talk to the RabbitMQ management interface,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\oravirt\ansible-oracle\roles\oradb_rman\tasks\main.yml,,,0,1,0,1,0,0,0,0,0,0,,,,
+,,Default Destinations for RMAN,,,,,,,,,,,,,0,0
+,,Warn if old style password variable is used,,,,,,,,,,,,,0,0
+,,configure autofs for RMAN,,,,,,,,,,,,,0,0
+,,Create Mountpoint,,,,,,,,,,,,,0,0
+,,Restart autofs,,,,,,,,,,,,,0,0
+,,Create bin-Directory for rman_backup,,,,,,,,,,,,,0,0
+,,Create log-Directory for cron output,,,,,,,,,,,,,0,0
+,,Create Directory for rman-scripts,,,,,,,,,,,,,0,0
+,,Create Directory for rman-logfiles,,,,,,,,,,,,,0,0
+,,copy rman_backup.sh,,,,,,,,,,,,,0,0
+,,copy RMAN scipts,,,,,,,,,,,,,1,0
+,,Create directory for TNS_ADMIN,,,,,,,,,,,,,0,0
+,,Template sqlnet.ora for rman catalog wallet,,,,,,,,,,,,,0,0
+,,Template tnsnames.ora for rman catalog,,,,,,,,,,,,,1,0
+,,Wallet create,,,,,,,,,,,,,1,0
+,,List wallet contents,,,,,,,,,,,,,1,0
+,,Wallet createCredential,,,,,,,,,,,,,1,0
+,,Wallet modifyCredential to ensure password is up to date,,,,,,,,,,,,,1,0
+,,Register Database in RMAN Catalog,,,,,,,,,,,,,1,0
+,,Execute RMAN-Script at playbook,,,,,,,,,,,,,1,0
+,,RMAN-Script at playbook output,,,,,,,,,,,,,0,0
+,,Add Environment variables to /etc/cron.d,,,,,,,,,,,,,1,0
+,,Create crontab entries for RMAN Backup,,,,,,,,,,,,,1,0
+,,Create directory for mk-job,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-openstack\ansible-nfv\roles\post_install\overcloud_nodes_tasks\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Include Controller tasks,,,,,,,,,,,,,0,0
+,,Include Compute tasks,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\copr\backend\tasks\install_cloud_cert.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,copy .pem,,,,,,,,,,,,,0,0
+,,update certificates,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\robertdebock\ansible-role-reboot\tasks\reboot.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,reboot | Flush notified handlers,,,,,,,,,,,,,0,0
+,,reboot | Reboot the machine,,,,,,,,,,,,,0,0
+,,reboot | 1 wait for the start of reboot,,,,,,,,,,,,,0,0
+,,reboot | 2 wait for the machine to be up,,,,,,,,,,,,,0,0
+,,reboot | 3 gather facts after reboot,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\ibm-spectrum-scale-install-infra\roles\gui\cluster\tasks\chpasswdpolicy.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,chpasswdpolicy | Change default password Policy,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\NationalGenomicsInfrastructure\irma-provision\roles\taca\tasks\main.yml,,,1,0,0,1,1,1,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Fetch TACA-ngi-pipeline from GitHub,,,,,,,,,,,,,0,0
+,,Install TACA-ngi-pipeline requirements,,,,,,,,,,,,,0,0
+,,Install TACA-ngi-pipeline,,,,,,,,,,,,,0,0
+,,Create TACA delivery configs directory,,,,,,,,,,,,,0,0
+,,Create TACA resources folders for each site,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Deploy uppsala piper config,,,,,,,,,,,,,0,0
+,,Deploy uppsala sarek config,,,,,,,,,,,,,0,0
+,,Deploy uppsala sarek WES config,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Deploy sthlm_taca_cleanup.yml config,,,,,,,,,,,,,0,0
+,,Deploy sthlm_fastq_taca_delivery.yml config,,,,,,,,,,,,,0,0
+,,Deploy WGS standard stockholm configs,,,,,,,,,,,,,0,0
+,,Deploy sthlm sarek config,,,,,,,,,,,,,0,0
+,,Deploy application specific stockholm configs,,,,,,,,,,,,,0,0
+,,Deploy runfolder delivery stockholm config,,,,,,,,,,,,,0,0
+,,Deploy script for softlinking sthlm delivery Readmes,,,,,,,,,,,,,0,0
+,,Store taca tools version on deployment,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Azure\azure_preview_modules\tests\integration\targets\azure_rm_publicipaddress\tasks\main.yml,,,1,0,0,1,0,0,0,0,0,0,,,,
+,,Create domain name,,,,,,,,,,,,,0,0
+,,Remove public ip,,,,,,,,,,,,,0,0
+,,Create public ip,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Should be idempotent,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Update tags,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,"Gather facts, filtering by tag",,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Purge all tags,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Gather facts for a public ip,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Gather facts for all public ips,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Remove public ip,,,,,,,,,,,,,0,0
+,,Gather facts for a public ip,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-quickstart-extras\playbooks\quickstart-extras-undercloud.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,Deploy the FreeIPA server,,,,,,,,,,,,0,0,,
+,Setup the undercloud,,,,,,,,,,,,0,0,,
+,Deploy the undercloud,,,,,,,,,,,,0,0,,
+,Download amphora image for octavia,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\gluster\gdeploy\playbooks\oc-delete.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,unknown,,,,,,,,,,,,0,0,,
+,,Kubectl delete resources based on filename,,,,,,,,,,,,,0,0
+,,Kubectl delete resources based on name,,,,,,,,,,,,,0,0
+,,Kubectl delete resources based on label,,,,,,,,,,,,,0,0
+,,Kubectl delete resources based on UUID,,,,,,,,,,,,,0,0
+,,Kubectl delete all resources otherwise,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\stackhpc\ansible-role-libvirt-vm\tasks\destroy-vm.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Check the VM's status,,,,,,,,,,,,,0,0
+,,Destory the VM is existing,,,,,,,,,,,,,0,0
+,,Ensure the VM is absent,,,,,,,,,,,,,0,0
+,,Ensure the VM is undefined,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-role-apt\tasks\holds.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,holds > Apt show holds,,,,,,,,,,,,,0,0
+,,holds > Set selections,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\kolla-ansible\ansible\roles\memcached\tasks\check-containers.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Check memcached container,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\kolla-ansible\ansible\roles\barbican\tasks\loadbalancer.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,Configure loadbalancer for {{ project_name }},,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Azure\azure_modules\tests\integration\targets\azure_rm_mysqlserver\tasks\main.yml,,,1,1,0,1,0,0,0,0,0,0,,,,
+,,Prepare random number,,,,,,,,,,,,,0,0
+,,Create instance of MySQL Server -- check mode,,,,,,,,,,,,,0,0
+,,Assert the resource instance is well created,,,,,,,,,,,,,0,0
+,,Create instance of MySQL Server,,,,,,,,,,,,,0,0
+,,Assert the resource instance is well created,,,,,,,,,,,,,0,0
+,,Create again instance of MySQL Server,,,,,,,,,,,,,0,0
+,,Assert the state has not changed,,,,,,,,,,,,,0,0
+,,"Update instance of MySQL Server, change storage size",,,,,,,,,,,,,0,0
+,,Assert the state has not changed,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Gather facts MySQL Server,,,,,,,,,,,,,0,0
+,,Assert that storage size is correct,,,,,,,,,,,,,0,0
+,,Create second instance of MySQL Server,,,,,,,,,,,,,0,0
+,,Create second instance of MySQL Server,,,,,,,,,,,,,0,0
+,,Gather facts MySQL Server,,,,,,,,,,,,,0,0
+,,Assert that facts are returned,,,,,,,,,,,,,0,0
+,,Gather facts MySQL Server,,,,,,,,,,,,,0,0
+,,Assert that facts are returned,,,,,,,,,,,,,1,0
+,,Create instance of MySQL Database -- check mode,,,,,,,,,,,,,0,0
+,,Assert the resource instance is well created,,,,,,,,,,,,,0,0
+,,Create instance of MySQL Database,,,,,,,,,,,,,0,0
+,,Assert the resource instance is well created,,,,,,,,,,,,,0,0
+,,Create again instance of MySQL Database,,,,,,,,,,,,,0,0
+,,Assert the state has not changed,,,,,,,,,,,,,0,0
+,,Try to update database without force_update,,,,,,,,,,,,,0,0
+,,Assert that nothing has changed,,,,,,,,,,,,,0,0
+,,Update instance of database using force_update,,,,,,,,,,,,,0,0
+,,Assert the state has changed,,,,,,,,,,,,,0,0
+,,Create second instance of MySQL Database,,,,,,,,,,,,,0,0
+,,Gather facts MySQL Database,,,,,,,,,,,,,0,0
+,,Assert that facts are returned,,,,,,,,,,,,,0,0
+,,Gather facts MySQL Database,,,,,,,,,,,,,0,0
+,,Assert that facts are returned,,,,,,,,,,,,,0,0
+,,Delete instance of MySQL Database -- check mode,,,,,,,,,,,,,0,0
+,,Assert the state has changed,,,,,,,,,,,,,0,0
+,,Delete instance of MySQL Database,,,,,,,,,,,,,0,0
+,,Assert the state has changed,,,,,,,,,,,,,0,0
+,,Delete unexisting instance of MySQL Database,,,,,,,,,,,,,0,0
+,,Assert the state has changed,,,,,,,,,,,,,0,0
+,,Create instance of Firewall Rule -- check mode,,,,,,,,,,,,,0,0
+,,Assert the resource instance is well created,,,,,,,,,,,,,0,0
+,,Create instance of Firewall Rule,,,,,,,,,,,,,0,0
+,,Assert the resource instance is well created,,,,,,,,,,,,,0,0
+,,Create again instance of Firewall Rule,,,,,,,,,,,,,0,0
+,,Assert the state has not changed,,,,,,,,,,,,,0,0
+,,Delete instance of Firewall Rule -- check mode,,,,,,,,,,,,,0,0
+,,Assert the state has changed,,,,,,,,,,,,,0,0
+,,Create instance of Firewall Rule -- second,,,,,,,,,,,,,0,0
+,,Assert the state has changed,,,,,,,,,,,,,0,0
+,,Gather facts MySQL Firewall Rule,,,,,,,,,,,,,0,0
+,,Assert that facts are returned,,,,,,,,,,,,,0,0
+,,Gather facts MySQL Firewall Rule,,,,,,,,,,,,,0,0
+,,Assert that facts are returned,,,,,,,,,,,,,0,0
+,,Delete instance of Firewall Rule,,,,,,,,,,,,,0,0
+,,Assert the state has changed,,,,,,,,,,,,,0,0
+,,Delete unexisting instance of Firewall Rule,,,,,,,,,,,,,0,0
+,,Assert the state has changed,,,,,,,,,,,,,0,0
+,,Delete instance of Firewall Rule - second,,,,,,,,,,,,,0,0
+,,Gather facts MySQL Firewall Rule,,,,,,,,,,,,,0,0
+,,Assert that empty list was returned,,,,,,,,,,,,,0,0
+,,Create instance of Configuration -- check mode,,,,,,,,,,,,,0,0
+,,Assert that change was registered,,,,,,,,,,,,,0,0
+,,Try to delete default configuraion,,,,,,,,,,,,,0,0
+,,Get facts of event_scheduler,,,,,,,,,,,,,0,0
+,,Try to delete default configuraion,,,,,,,,,,,,,0,0
+,,Assert that change was registered,,,,,,,,,,,,,0,0
+,,Try to change default configuraion,,,,,,,,,,,,,0,0
+,,Assert that change was registered,,,,,,,,,,,,,0,0
+,,Try to change default configuration -- idempotent,,,,,,,,,,,,,0,0
+,,Assert that change was registered,,,,,,,,,,,,,0,0
+,,Try to reset configuration,,,,,,,,,,,,,0,0
+,,Assert that change was registered,,,,,,,,,,,,,0,0
+,,Try to reset configuration -- idempotent,,,,,,,,,,,,,0,0
+,,Assert that change was registered,,,,,,,,,,,,,0,0
+,,Gather facts MySQL Configuration,,,,,,,,,,,,,0,0
+,,Assert that facts are returned,,,,,,,,,,,,,0,0
+,,Gather facts MySQL Configuration,,,,,,,,,,,,,0,0
+,,Assert that facts are returned,,,,,,,,,,,,,0,0
+,,Delete instance of MySQL Server -- check mode,,,,,,,,,,,,,0,0
+,,Assert the state has changed,,,,,,,,,,,,,0,0
+,,Delete instance of MySQL Server,,,,,,,,,,,,,0,0
+,,Assert the state has changed,,,,,,,,,,,,,0,0
+,,Delete unexisting instance of MySQL Server,,,,,,,,,,,,,0,0
+,,Assert the state has changed,,,,,,,,,,,,,0,0
+,,Delete second instance of MySQL Server,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\contiv\ansible\roles\nfs\tasks\server.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,install nfs server (redhat),,,,,,,,,,,,,0,0
+,,install nfs server (debian),,,,,,,,,,,,,0,0
+,,enable nfs server services (redhat),,,,,,,,,,,,,0,0
+,,start nfs server services (redhat),,,,,,,,,,,,,0,0
+,,ensure nfs service is running (debian),,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-ansible-ceph_client\tasks\ceph_preinstall_apt.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Remove revoked ceph apt-keys,,,,,,,,,,,,,0,0
+,,"If a keyfile is provided, copy the gpg keyfile to the key location",,,,,,,,,,,,,0,0
+,,Add ceph apt-keys,,,,,,,,,,,,,0,0
+,,Add ceph repo(s),,,,,,,,,,,,,0,0
+,,Update Apt cache,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\kolla-ansible\ansible\roles\designate\tasks\bootstrap_service.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Running Designate bootstrap container,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Juniper\contrail-ansible-internal\playbooks\roles\contrail\agent\tasks\cni.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Make sure cni config directories exist,,,,,,,,,,,,,0,0
+,,Create cni config,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\plone\ansible-playbook\roles\fail2ban\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,0,0
+,,Check fail2ban jail for [sshd],,,,,,,,,,,,,0,0
+,,Ensure jail.d directory,,,,,,,,,,,,,0,0
+,,Local config in jail.d/customization.local,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CenterForOpenScience\cos-ansible-base\roles\docker-osf\tasks\adminserver.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensure docker osf adminserver directories exist,,,,,,,,,,,,,0,0
+,,Ensure docker osf adminserver data directories exist,,,,,,,,,,,,,0,0
+,,Copy docker osf adminserver configuration settings,,,,,,,,,,,,,0,0
+,,Restart docker osf adminserver container,,,,,,,,,,,,,0,0
+,,Run docker osf adminserver container,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\StackStorm\ansible-st2\roles\StackStorm.rabbitmq\tasks\rabbitmq_redhat.yml,,,0,0,0,0,0,0,1,0,0,1,,,,
+,,Setup rabbitmy/erlang repo from packagecloud for RH,,,,,,,,,,,,,1,0
+,,Setup rabbit repo from packagecloud for RH,,,,,,,,,,,,,1,0
+,,Install latest erlang package on {{ ansible_facts.distribution }},,,,,,,,,,,,,0,0
+,,Install pinned erlang package on {{ ansible_facts.distribution }},,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\roles\ad_hoc_reporting\tasks\main.yml,,,0,0,0,1,0,0,0,0,0,0,,,,
+,,install system packages,,,,,,,,,,,,,0,0
+,,add the mongodb signing key,,,,,,,,,,,,,0,0
+,,add the mongodb repo to the sources list,,,,,,,,,,,,,0,0
+,,install mongo shell,,,,,,,,,,,,,0,0
+,,install mongo shell,,,,,,,,,,,,,0,0
+,,install python packages,,,,,,,,,,,,,0,0
+,,create directories,,,,,,,,,,,,,0,0
+,,Get the AWS rds ca certificate to connect db using SSL,,,,,,,,,,,,,0,0
+,,install common mysql replica scripts,,,,,,,,,,,,,0,0
+,,install common rds iam replica scripts,,,,,,,,,,,,,0,0
+,,install read_only user mongodb replica scripts,,,,,,,,,,,,,1,0
+,,install single user access mongodb replica scripts,,,,,,,,,,,,,1,0
+,,install a global mongorc.js,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\trailofbits\algo\roles\cloud-vultr\tasks\main.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,Include prompts,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,Creating a firewall group,,,,,,,,,,,,,0,0
+,,Creating firewall rules,,,,,,,,,,,,,1,0
+,,Upload the startup script,,,,,,,,,,,,,0,0
+,,Creating a server,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Duffney\becomeansible\chapter-08\nonGalaxy\chocolateyBusiness\tasks\main.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,register windows temp env var,,,,,,,,,,,,,0,0
+,,register windows programdata env var,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,copy ChocolateyInstall.ps1,,,,,,,,,,,,,0,0
+,,install chocolatey,,,,,,,,,,,,,0,0
+,,create license directory,,,,,,,,,,,,,0,0
+,,copy chocolatey business license,,,,,,,,,,,,,0,0
+,,copy licensed extension,,,,,,,,,,,,,0,0
+,,upgrade chocolatey to business,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM-Security\isam-ansible-roles\set_network_ipv4_dhcp\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,1,,,,
+,,Snapshot Appliance as Backup,,,,,,,,,,,,,0,0
+,,Update DHCP for Interface {{ set_network_ipv4_dhcp_label }},,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\tenhishadow\pve_on_debian\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,do init checks,,,,,,,,,,,,,0,0
+,,set hostname for the system,,,,,,,,,,,,,0,0
+,,refresh facts because hostname has been changed,,,,,,,,,,,,,0,0
+,,modify /etc/hosts,,,,,,,,,,,,,0,0
+,,add pve repository key,,,,,,,,,,,,,0,0
+,,add pve-no-subscription repo,,,,,,,,,,,,,0,0
+,,update system,,,,,,,,,,,,,0,0
+,,install proxmox packages,,,,,,,,,,,,,0,0
+,,remove excess packages,,,,,,,,,,,,,0,0
+,,search for standard kernels,,,,,,,,,,,,,0,0
+,,remove standard kernels if presented,,,,,,,,,,,,,0,0
+,,configure network from template,,,,,,,,,,,,,0,0
+,,remove enterprise repo,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CentOS-PaaS-SIG\linchpin\dev_setup\playbooks\roles\pipeline\tasks\check_builds.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,{{ container_config_name }} :: Wait for {{ container_config_name }} to be built and marked with latest tag,,,,,,,,,,,,,0,1
+,,Modify tags on images,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\network\tasks\hosts.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Hosts > File,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\GROG\ansible-role-package\tasks\package-brew.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Brew,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\elasticluster\elasticluster\elasticluster\share\playbooks\roles\kubernetes-apps\tasks\helm.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Get Helm.sh script,,,,,,,,,,,,,0,0
+,,Deploy Helm,,,,,,,,,,,,,0,0
+,,Add Google Stable repo,,,,,,,,,,,,,0,0
+,,Update Helm Repositories,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\manala\ansible-roles\roles\glusterfs\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Install,,,,,,,,,,,,,0,0
+,,Services,,,,,,,,,,,,,0,0
+,,Volumes,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-ansible-ops\elk_metrics_7x\roles\elastic_repositories\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Gather variables for each operating system,,,,,,,,,,,,,0,0
+,,Install repo disto packages,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\freeipa\ansible-freeipa\tests\pytests\dnszone\playbooks\dnszone_disable.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,Playbook to ensure the DNS zones disabled.,,,,,,,,,,,,0,0,,
+,,Ensure DNS zone is disabled,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\atosatto\ansible-dockerswarm\tasks\setup-python-pip.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Install epel-release,,,,,,,,,,,,,0,0
+,,Install python-pip.,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\folio-org\folio-ansible\roles\ebsco-rmapi-config\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Login as {{ admin_user.username }},,,,,,,,,,,,,0,0
+,,Configure RM API credentials,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-openstack\ansible-nfv\roles\generate_tht_templates\tasks\functions.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Generate DPDK config,,,,,,,,,,,,,0,0
+,,Generate SRIOV config,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\bdellegrazie\ansible-role-ca-certificates\tasks\ca_certificates-trusted.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Install trusted CA Certificates,,,,,,,,,,,,,1,0
+,,Install remote trusted CA Certificates,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\pagure\frontend\tasks\main.yml,,,0,1,0,1,0,0,0,0,0,0,,,,
+,,install needed packages,,,,,,,,,,,,,1,0
+,,install needed packages,,,,,,,,,,,,,0,0
+,,Initialize postgres if necessary,,,,,,,,,,,,,0,0
+,,Put in robots.txt,,,,,,,,,,,,,0,0
+,,"Create the ""git"" user",,,,,,,,,,,,,0,0
+,,create the /attachments folder,,,,,,,,,,,,,0,0
+,,create all the directories where we store the git repos,,,,,,,,,,,,,0,0
+,,create the /srv/tmp folder where to clone repos,,,,,,,,,,,,,0,0
+,,create the `paguremirroring` group,,,,,,,,,,,,,0,0
+,,create the `paguremirroring` user,,,,,,,,,,,,,0,0
+,,Add the /etc/aliases file,,,,,,,,,,,,,0,0
+,,install pagure_ev service definition,,,,,,,,,,,,,0,0
+,,install stunnel service definition,,,,,,,,,,,,,0,0
+,,ensure old stunnel init file is gone,,,,,,,,,,,,,0,0
+,,make a bundle file of the cert and intermediate for stunnel,,,,,,,,,,,,,0,0
+,,make a bundle file of the cert and intermediate for stunnel (stg),,,,,,,,,,,,,0,0
+,,install stunnel.conf,,,,,,,,,,,,,0,0
+,,Add the different service files for the different services,,,,,,,,,,,,,0,0
+,,create the folders used for releases and archives,,,,,,,,,,,,,0,0
+,,copy sundry pagure configuration,,,,,,,,,,,,,1,0
+,,Create the repoSpanner cert directory,,,,,,,,,,,,,0,0
+,,Copy repoSpanner certs and keys,,,,,,,,,,,,,0,0
+,,create the database scheme,,,,,,,,,,,,,0,0
+,,Install the SSL cert so that we can use https,,,,,,,,,,,,,1,0
+,,Install the configuration file to activate https,,,,,,,,,,,,,0,0
+,,Install the wsgi file,,,,,,,,,,,,,0,0
+,,let repospanner read the pagure config,,,,,,,,,,,,,0,0
+,,let paguremirroring read the pagure config,,,,,,,,,,,,,0,0
+,,Add default facl so apache can read git repos,,,,,,,,,,,,,0,0
+,,Manually fix current default ACLs since Ansible doesnt know recursive acls,,,,,,,,,,,,,0,0
+,,Manually fix current ACLs since Ansible doesnt know recursive acls,,,,,,,,,,,,,0,0
+,,check the selinux context of the git repo directory,,,,,,,,,,,,,0,0
+,,set the SELinux policy for the distgit root directory,,,,,,,,,,,,,0,0
+,,check the selinux context of the releases directory,,,,,,,,,,,,,0,0
+,,set the SELinux policy for the releases directory,,,,,,,,,,,,,0,0
+,,copy over our custom selinux module,,,,,,,,,,,,,0,0
+,,install our custom selinux module,,,,,,,,,,,,,0,0
+,,set sebooleans so pagure can talk to the network (db + redis),,,,,,,,,,,,,0,0
+,,set sebooleans so apache can send emails,,,,,,,,,,,,,0,0
+,,"Start and enable httpd, postfix, pagure_milter",,,,,,,,,,,,,1,0
+,,setup logrotate to our needs,,,,,,,,,,,,,0,0
+,,Add SAR script for pagure,,,,,,,,,,,,,0,0
+,,override the default syslog logrotate file,,,,,,,,,,,,,0,0
+,,Letsencrypt for releases.stg.pagure.org,,,,,,,,,,,,,0,0
+,,Letsencrypt for docs.stg.pagure.org,,,,,,,,,,,,,0,0
+,,Letsencrypt for stg.pagure.org,,,,,,,,,,,,,0,0
+,,Letsencrypt for stg.pagure.io,,,,,,,,,,,,,0,0
+,,Letsencrypt for pagure.org,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-ansible-ops\leap-upgrades\upgrade-utilities-kilo\playbooks\user-secrets-adjustments-kilo.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,User secrets adjustments,,,,,,,,,,,,0,0,,
+,,Read example user secrets file,,,,,,,,,,,,,0,0
+,,Add missing secret,,,,,,,,,,,,,0,0
+,,Generate new secrets,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-quickstart-extras\playbooks\multinode-undercloud-minion.yml,,,0,0,0,1,1,0,0,0,0,0,,,,
+,Collect output from undercloud,,,,,,,,,,,,0,0,,
+,,Copy output files,,,,,,,,,,,,,0,0
+,Write output from undercloud,,,,,,,,,,,,0,0,,
+,,Reading and setting undercloud facts from gather-outputs,,,,,,,,,,,,,0,0
+,,write output files to old consistent location,,,,,,,,,,,,,0,0
+,,create new consistent location,,,,,,,,,,,,,0,0
+,,write output files to new consistent location,,,,,,,,,,,,,0,0
+,Setup the undercloud minion,,,,,,,,,,,,0,0,,
+,,Include atop setup,,,,,,,,,,,,,0,0
+,,Set container update fact from undercloud,,,,,,,,,,,,,0,0
+,,Include repo-setup,,,,,,,,,,,,,0,0
+,,Include package installs,,,,,,,,,,,,,0,0
+,,Update built packages,,,,,,,,,,,,,0,0
+,Deploy the undercloud minion,,,,,,,,,,,,0,0,,
+,Validate minion,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM\community-automation\ansible\roles\http_start\tasks\http_start.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,start httpd,,,,,,,,,,,,,0,0
+,,starthttpdOutput,,,,,,,,,,,,,0,0
+,,start adminctl,,,,,,,,,,,,,0,0
+,,startadminctlOutput,,,,,,,,,,,,,0,0
+,,Check server-status,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-ansible\tripleo_ansible\roles\tripleo_container_manage\tasks\create.yml,,,0,0,0,0,1,0,1,0,0,1,,,,
+,,Create containers managed by Podman for {{ tripleo_container_manage_config }},,,,,,,,,,,,,0,1
+,,Check if /etc/sysconfig/podman_drop_in exists,,,,,,,,,,,,,0,0
+,,Set podman_drop_in fact,,,,,,,,,,,,,0,0
+,,Manage container systemd services and cleanup old systemd healthchecks for {{ tripleo_container_manage_config }},,,,,,,,,,,,,0,1
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\license_manager.yml,,,0,0,0,0,0,0,0,0,0,,,,,
+,Deploy edX License Manager,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\trustedanalytics\platform-ansible\roles\common\tasks\iptables.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Don't unload IPTables modules on restart and stop,,,,,,,,,,,,,0,0
+,,Disable IPTables service,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\shadow-robot\aurora\ansible\roles\products\common\web-gui-icon\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Copy desktop icon,,,,,,,,,,,,,0,0
+,,Create executable launch script,,,,,,,,,,,,,0,0
+,,Create desktop icon,,,,,,,,,,,,,0,0
+,,Make Desktop icon trusted,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\splunk\splunk-ansible\roles\splunk_common\tasks\set_general_symmkey_password.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Set general pass4SymmKey,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\openstack-ansible-os_octavia\tasks\octavia_pre_install.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Create the system group,,,,,,,,,,,,,0,0
+,,Create the octavia system user,,,,,,,,,,,,,0,0
+,,Create octavia dir,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\weareinteractive\ansible-php5-newrelic\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Checking for key,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\clusterinthecloud\ansible\roles\packages\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,yum install packages,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\avinetworks\ansible-role-aviconfig\tasks\stringgroup.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Avi StringGroup | Create or Update StringGroup,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\debops\debops\ansible\roles\owncloud\tasks\main_env.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Ensure the custom nginx client body temp directory does exist,,,,,,,,,,,,,0,0
+,,Ensure the custom temp directories are setup,,,,,,,,,,,,,0,0
+,,Make sure that Ansible local facts directory is present,,,,,,,,,,,,,0,0
+,,Save ownCloud local facts,,,,,,,,,,,,,0,0
+,,Gather facts if they were modified,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\cloudera\cloudera-playbook\roles\scm\tasks\cms.yml,,,0,0,0,0,1,0,1,0,0,0,,,,
+,,Wait for agent heartbeats,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Setup the Cloudera Management Services (CMS),,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Start Cloudera Management Services (CMS),,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\stackhpc\ansible-role-os-images\tasks\images.yml,,,0,0,0,1,1,1,0,0,0,0,,,,
+,,Include OS family-specific variables,,,,,,,,,,,,,0,0
+,,Ensure required packages are installed,,,,,,,,,,,,,0,0
+,,Ensure diskimage-builder SELinux dependencies are installed,,,,,,,,,,,,,0,0
+,,Ensure download cache dir exists,,,,,,,,,,,,,0,0
+,,Remove old images for force rebuild,,,,,,,,,,,,,0,0
+,,Generate per-image cache directories,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,Download the image to the directory when an image_url is defined,,,,,,,,,,,,,0,0
+,,Unpack the image if .xz format,,,,,,,,,,,,,0,0
+,,Install a suitable version of diskimage-builder,,,,,,,,,,,,,0,0
+,,Git clone any additional image element repos,,,,,,,,,,,,,0,0
+,,Set a fact containing paths to DIB elements,,,,,,,,,,,,,0,0
+,,Incorporate git-sourced DIB elements,,,,,,,,,,,,,0,0
+,,Set a fact containing the default DIB environment,,,,,,,,,,,,,0,0
+,,Generate diskimage-builder images,,,,,,,,,,,,,1,0
+,,Fail if any images failed to build,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\tungstenfabric\tf-ansible-deployer\playbooks\contrail_destroy.yml,,,0,0,0,0,1,0,0,0,0,,,,,
+,create container host group for Contrail destroyer,,,,,,,,,,,,0,0,,
+,Apply role destroy to Contrail,,,,,,,,,,,,0,0,,
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\gluster\server\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,install needed packages,,,,,,,,,,,,,0,0
+,,make the datadir,,,,,,,,,,,,,0,0
+,,make the datapath,,,,,,,,,,,,,0,0
+,,copy over the server config,,,,,,,,,,,,,0,0
+,,glusterd service,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\fedora-web\alt\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,1,,,,
+,,Copy in the sync-alt cronjob,,,,,,,,,,,,,0,0
+,,Copy some config files for {{website}},,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\PowerDNS\pdns_recursor-ansible\tasks\configure.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Unknown,,,,,,,,,,,,,1,0
+,,Ensure the PowerDNS Recursor drop-in unit overrides directory exists (systemd),,,,,,,,,,,,,0,1
+,,Override the PowerDNS Recursor unit (systemd),,,,,,,,,,,,,0,0
+,,Reload systemd,,,,,,,,,,,,,0,0
+,,Ensure that the PowerDNS Recursor configuration directory exists,,,,,,,,,,,,,0,0
+,,Generate the PowerDNS Recursor configuration,,,,,,,,,,,,,0,0
+,,Ensure that the PowerDNS Recursor 'include-dir' directory exists,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,1,0
+,,Ensure that the PowerDNS Recursor configuration from-files directory exists,,,,,,,,,,,,,0,0
+,,Copy the PowerDNS Recursor configuration from-files files,,,,,,,,,,,,,0,0
+,,Generate the PowerDNS Recursor Lua config-file,,,,,,,,,,,,,0,0
+,,Generate PowerDNS Recursor Lua dns-script,,,,,,,,,,,,,0,0
+,,Restart PowerDNS Recursor,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Juniper\contrail-ansible\kolla-ansible\ansible\roles\ceilometer\tasks\precheck.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Get container facts,,,,,,,,,,,,,0,0
+,,Checking free port for Ceilometer API,,,,,,,,,,,,,0,0
+,,Checking mongodb backend for ceilometer,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\kubernetes-sigs\kubespray\contrib\network-storage\heketi\roles\provision\tasks\storage.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Kubernetes Apps | Lay Down Heketi Storage,,,,,,,,,,,,,0,0
+,,Kubernetes Apps | Install and configure Heketi Storage,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CentOS-PaaS-SIG\linchpin\linchpin\provision\roles\beaker\tasks\main.yml,,,0,0,0,0,1,0,0,0,0,0,,,,
+,,allocate beaker outputs,,,,,,,,,,,,,0,0
+,,Initiating Provision of beaker resource group,,,,,,,,,,,,,0,0
+,,Initiating Teardown of beaker resource group,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CenterForOpenScience\cos-ansible-base\roles\skel\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,1,,,,
+,,Set /etc/skel/.bashrc,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\redhat-openstack\ansible-role-tripleo-image-build\tasks\convert_undercloud.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Get the undercloud base image,,,,,,,,,,,,,0,0
+,,Resize undercloud image (create target image),,,,,,,,,,,,,0,0
+,,Resize undercloud image (call virt-resize),,,,,,,,,,,,,0,0
+,,Resize undercloud image (rename resized image),,,,,,,,,,,,,0,0
+,,Template script to convert overcloud image to undercloud,,,,,,,,,,,,,0,0
+,,Convert the overcloud image to an undercloud image,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openedx\configuration\playbooks\roles\antivirus\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,install antivirus system packages,,,,,,,,,,,,,0,0
+,,create antivirus scanner user,,,,,,,,,,,,,0,0
+,,create antivirus edx directories,,,,,,,,,,,,,0,0
+,,Ensure the clamav.log file exists,,,,,,,,,,,,,0,0
+,,install antivirus s3 scanner script,,,,,,,,,,,,,0,0
+,,install antivirus s3 scanner cronjob,,,,,,,,,,,,,0,0
+,,install antivirus server scanner script,,,,,,,,,,,,,0,0
+,,install antivirus server scanner cronjob,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\IBM-Security\isam-ansible-roles\aac\create_api_protection_clients\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Create api protection client,,,,,,,,,,,,,1,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\nexcess\ansible-playbook-cloudhost\playbooks\tasks\import-rename.yml,,,0,0,0,1,0,0,1,0,0,0,,,,
+,,Create a Work Directory if Renaming,,,,,,,,,,,,,0,0
+,,Untar Backup,,,,,,,,,,,,,0,0
+,,Does the Content Dir Exist?,,,,,,,,,,,,,0,0
+,,Rename Content Dir,,,,,,,,,,,,,0,0
+,,Rename Var Dir,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Replace Old/New IWORX-META Files,,,,,,,,,,,,,0,0
+,,Unknown,,,,,,,,,,,,,0,0
+,,Replace Old/New IWORX-META File Contents (Username),,,,,,,,,,,,,0,0
+,,Mask Email@Domain Collisions,,,,,,,,,,,,,0,0
+,,Replace Old/New IWORX-META File Contents (Domain),,,,,,,,,,,,,0,0
+,,Unmask Email@Domain Collisions,,,,,,,,,,,,,0,0
+,,Replace Old/New IWORX-META File Contents (Temp Domain),,,,,,,,,,,,,0,0
+,,Get the IP Map MD5,,,,,,,,,,,,,0,0
+,,Create the New IP Map MD5 File,,,,,,,,,,,,,0,0
+,,Move Base Uniqname Dir To New,,,,,,,,,,,,,0,0
+,,Create New Import Tarball,,,,,,,,,,,,,0,0
+,,Remove Workdir,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CentOS-PaaS-SIG\linchpin\linchpin\provision\roles\gather_resources\tasks\wait_on_os_heat.yml,,,0,0,0,0,1,0,1,0,0,0,,,,
+,,waiting on each job id,,,,,,,,,,,,,0,0
+,,Append outputitem to topology_outputs,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\ansible\ansible-examples\mongodb\roles\mongoc\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Create data directory for mongoc configuration server,,,,,,,,,,,,,0,0
+,,Create the mongo configuration server startup file,,,,,,,,,,,,,0,0
+,,Create the mongo configuration server file,,,,,,,,,,,,,0,0
+,,Copy the keyfile for authentication,,,,,,,,,,,,,0,0
+,,Start the mongo configuration server service,,,,,,,,,,,,,0,0
+,,pause,,,,,,,,,,,,,0,0
+,,add the admin user,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\CentOS-PaaS-SIG\linchpin\linchpin\provision\roles\openstack\tasks\provision_os_zone.yml,,,0,0,0,0,1,0,1,0,0,0,,,,
+,,provision/deprovision os_zone,,,,,,,,,,,,,1,0
+,,Append outputitem to topology_outputs,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\openstack\tripleo-ansible\tripleo_ansible\roles\tripleo_nova_compute\tasks\upgrade.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Inlcude update tasks to upgrade Nova Libvirt,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\shadow-robot\aurora\ansible\roles\products\common\docker-container\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Getting UID,,,,,,,,,,,,,0,0
+,,Reinstall docker container,,,,,,,,,,,,,0,0
+,,Don't reinstall docker container,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\OpenConext\Stepup-Deploy\roles\stepup-azure-mfa\tasks\main.yml,,,0,0,0,0,0,0,1,0,0,0,,,,
+,,Put parameters.yaml,,,,,,,,,,,,,0,0
+,,Put .env file,,,,,,,,,,,,,0,0
+,,Put institutions.yaml from environment,,,,,,,,,,,,,0,0
+,,Deploy Symfony component,,,,,,,,,,,,,0,0
+,,Put images from <env>/files/stepup-app into web/images,,,,,,,,,,,,,0,0
+,,Write Azure-MFA GSSP SP certificate,,,,,,,,,,,,,0,0
+,,Write Azure-MFA GSSP IdP certificate,,,,,,,,,,,,,0,0
+,,Write Azure-MFA GSSP IdP private key,,,,,,,,,,,,,0,0
+,,Activate Symfony component,,,,,,,,,,,,,0,0
+,,Clean old releases,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\usegalaxy-eu\infrastructure-playbook\roles\hxr.galaxy-nonreproducible-tools\tasks\main.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Clone repository,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\Cloudbox\Cloudbox\roles\settings\tasks\main2.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Settings | Copy,,,,,,,,,,,,,0,0
+,,Settings | Decrypt,,,,,,,,,,,,,0,0
+,,Settings | Migrator,,,,,,,,,,,,,0,0
+,,Settings | Updater,,,,,,,,,,,,,0,0
+,,Settings | Re-encrypt,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\henrysher\fedora-infra-ansible\roles\abrt\retrace\tasks\usefafpkgs.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,check if faf installed,,,,,,,,,,,,,0,0
+,,add user retrace to faf db,,,,,,,,,,,,,0,0
+,,ACL for user retrace,,,,,,,,,,,,,0,0
+,,default ACL for user retrace,,,,,,,,,,,,,0,0
+,,check for hardlink dir,,,,,,,,,,,,,0,0
+,,make dir for hardlinks,,,,,,,,,,,,,0,0
+C:\Users\PC\Desktop\mitacs\Projet\ansible\playbooks\projects\dimagi\commcare-cloud\src\commcare_cloud\ansible\roles\nginx\tasks\dropsite.yml,,,0,0,0,0,0,0,0,0,0,0,,,,
+,,Include site vars if they exist,,,,,,,,,,,,,0,0
+,,Drop site configuration,,,,,,,,,,,,,0,0
